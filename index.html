@@ -1920,6 +1920,7 @@ const COMMUNITIES=[
 R(/^\/community$/,()=>{
   setView(`<div class="wrap page cc">${crumbs([['Home','#/'],['Community']])}<div class="cchero"><span class="kick">&#128101; Join the Community</span><h1>Learn faster, <span class="grad">together</span>.</h1><p class="sub">The best rooms on the internet for each industry. Pick one, join it, and show up every week - that is half the compounding.</p></div>${COMMUNITIES.map(g=>`<div class="sec"><h2>${esc(g.ind)}</h2></div><p class="sub" style="margin:-6px 0 12px">${esc(g.tip)}</p><div class="grid">${g.items.map(x=>`<a class="tile" style="--acc:${g.acc}" href="${esc(x.u)}" target="_blank" rel="noopener noreferrer"><h3>${esc(x.t)} &#8599;</h3><p>${esc(x.c)}</p><p style="margin-top:8px"><span class="pill" style="background:#eef2ff;color:#3730a3">${esc(x.s)}</span></p></a>`).join('')}</div>`).join('')}</div>`,'Community');
 });
+kIndex(); COMMUNITIES.forEach(g=>g.items.forEach(x=>KIDX.push({g:'Communities',t:x.t,s:g.ind,h:'#/community',k:(x.t+' '+g.ind+' '+x.c+' community join').toLowerCase()})));
 
 
 /* drills */
