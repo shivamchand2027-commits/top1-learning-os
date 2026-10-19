@@ -8,7 +8,7 @@
 <meta name="theme-color" content="#f4f2ec">
 <meta property="og:title" content="Top 1% Learning OS"><meta property="og:description" content="Learn. Read. Win case competitions."><meta property="og:type" content="website"><meta property="og:url" content="https://top1os.dev/"><meta property="og:site_name" content="Top 1% Learning OS"><meta property="og:image" content="https://top1os.dev/og.png"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Top 1% Learning OS"><meta name="twitter:description" content="Learn. Read. Win case competitions."><meta name="twitter:image" content="https://top1os.dev/og.png">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%2317140c'/%3E%3Ctext x='32' y='43' font-size='28' font-family='Arial Black,Arial' font-weight='900' text-anchor='middle' fill='%23c9f24b'%3E1%25%3C/text%3E%3C/svg%3E">
-<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600;700;800&family=Instrument+Serif:ital@0;1&display=swap"><link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600;700;800&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet" media="print" onload="this.media='all'"><noscript><link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600;700;800&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet"></noscript>
 <script>try{localStorage.removeItem('top1_theme');}catch(e){}document.documentElement.setAttribute('data-theme','light');</script>
@@ -259,7 +259,6 @@ h1,h2{font-weight:650;letter-spacing:-.035em;line-height:1.02}
 <div id="toasts" aria-live="polite"></div>
 <div id="kmodal" role="dialog" aria-modal="true" aria-label="Search"><div class="box"><input id="kin" placeholder="Search modules, library, frameworks, cases..." oninput="kRender()" autocomplete="off"><div id="kres"></div></div></div>
 <script src="/data/img3d.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.117.2/dist/umd/supabase.js"></script>
 <script src="/data/lib.js"></script>
 <script src="/data/cc.js"></script>
 <script src="/data/modules.js"></script>
@@ -449,7 +448,8 @@ let sb = null;
 let SESSION = null;
 let syncState = 'off';
 
-try { sb = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY); } catch(e){ console.error('supabase init failed', e); }
+let sbPromise=null;
+function loadSb(){ if(!sbPromise){ sbPromise=new Promise(function(res,rej){ var sc=document.createElement('script'); sc.src='https:\/\/cdn.jsdelivr.net\/npm\/@supabase\/supabase-js@2.117.2\/dist\/umd\/supabase.js'; sc.onload=function(){ try{ sb=window.supabase.createClient(SUPABASE_URL,SUPABASE_ANON_KEY); res(sb); }catch(e){ rej(e); } }; sc.onerror=function(){ rej(new Error('supabase load failed')); }; document.head.appendChild(sc); }); } return sbPromise; }
 const LS_KEY='t1sprint.v2';
 function loadLocal(){ try{ return JSON.parse(localStorage.getItem(LS_KEY))||{days:{},videos:{}}; }catch(e){ return {days:{},videos:{}}; } }
 function saveLocal(){ localStorage.setItem(LS_KEY, JSON.stringify(STATE)); }
@@ -476,6 +476,7 @@ async function pushProgress(){
   paintSyncbar();
 }
 async function pullProgress(){
+    if(!sb){ try{ await loadSb(); }catch(e){ return; } }
   if(!SESSION) return;
   try{
     const { data, error } = await sb.from('progress').select('data').eq('email', SESSION.user.email).maybeSingle();
@@ -582,11 +583,12 @@ function addCodeEntry(email, anchor){
     const m = div.querySelector('#otpMsg');
     if(!/^\d{6,8}$/.test(token)){ m.textContent='Enter the sign-in code (6-8 digits).'; return; }
     m.textContent='Checking code...';
-    const { error } = await sb.auth.verifyOtp({ email, token, type:'email' });
+    await loadSb(); const { error } = await sb.auth.verifyOtp({ email, token, type:'email' });
     m.textContent = error ? ('Code failed: '+error.message) : 'Signed in - loading your dashboard...';
   });
 }
-function sendLoginLink(email, msg, approvedNote){
+async function sendLoginLink(email, msg, approvedNote){
+  try{ await loadSb(); }catch(e){ msg.textContent='Could not load sign-in. Check connection and retry.'; return; }
   msg.innerHTML = (approvedNote ? '<b>Approved.</b> ' : '') + 'Sending your sign-in link...';
   sb.auth.signInWithOtp({ email, options:{ emailRedirectTo: 'https:\/\/top1os.dev\/' } }).then(({error})=>{
     if(error){
@@ -1867,8 +1869,12 @@ R(/^\/admin$/,()=>{
 
 
 async function boot(){
-  if(!sb){ renderLogin(); document.getElementById('loginMsg').textContent='Backend not configured yet.'; return; }
-  if(location.hash.indexOf('error=')>-1){
+  var h0=location.hash||'';
+  var hasTokens = h0.indexOf('access_token=')>-1 || h0.indexOf('error=')>-1 || h0.indexOf('error_description=')>-1;
+  var hasHint=false; try{ hasHint=Object.keys(localStorage).some(function(k){ return k.indexOf('sb-')===0 && k.indexOf('-auth-token')>-1; }); }catch(e){}
+  var pend0 = localStorage.getItem('top1_pending');
+  if(!hasTokens && !hasHint && !pend0){ renderLogin(); loadSb().catch(function(){}); return; }
+  if(h0.indexOf('error=')>-1){
     location.hash = '';
     renderLogin();
     document.getElementById('loginMsg').innerHTML = 'That sign-in link was already used or expired. Enter your email for a fresh link - or sign in with a code.';
@@ -1876,6 +1882,8 @@ async function boot(){
     if(em0){ document.getElementById('loginEmail').value = em0; }
     return;
   }
+  try{ await loadSb(); }catch(e){}
+  if(!sb){ renderLogin(); document.getElementById('loginMsg').textContent='Backend not configured yet.'; return; }
   try{
     if(typeof google!=='undefined' && google.script && google.script.url){
       await new Promise(function(r){ var t=setTimeout(r,2500); google.script.url.getLocation(function(loc){ clearTimeout(t); (async function(){ try{
