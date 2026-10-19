@@ -261,11 +261,10 @@ h1,h2{font-weight:650;letter-spacing:-.035em;line-height:1.02}
 <script src="/data/img3d.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.117.2/dist/umd/supabase.js"></script>
 <script src="/data/lib.js"></script>
-<script src="/data/kits.js"></script>
 <script src="/data/cc.js"></script>
 <script src="/data/modules.js"></script>
 <script src="/data/books.js"></script>
-<script>
+<script>const KITS={};let KITS_READY=false;
 (function(){['localStorage','sessionStorage'].forEach(function(n){try{window[n].getItem('t1x');}catch(e){var m={};try{Object.defineProperty(window,n,{configurable:true,value:{getItem:function(k){return Object.prototype.hasOwnProperty.call(m,k)?m[k]:null},setItem:function(k,v){m[k]=String(v)},removeItem:function(k){delete m[k]},clear:function(){m={}}}});}catch(e2){}}});})();
 setTimeout(function(){var a=document.getElementById("app");if(a&&a.querySelector(".skel")&&!a.querySelector(".slowmsg")){a.insertAdjacentHTML("beforeend","<div class='wrap slowmsg' style='text-align:center;color:#a3a3bd;padding:20px'>Taking longer than usual. Check your internet connection and reload.</div>");}},12000);
 const SUPABASE_URL = 'https://dpddwrkvdkeguhepbqoe.supabase.co';
@@ -1992,6 +1991,8 @@ R(/^\/cert\/(\w+)$/,(m)=>{
 
 boot();
 
+
+window.addEventListener('load',function(){var s=document.createElement('script');s.src='/data/kits.js';s.onload=function(){KITS_READY=true;try{if(location.hash.indexOf('#/day/')===0)route();}catch(e){}};document.head.appendChild(s);});
 </script>
 </body>
 </html>
