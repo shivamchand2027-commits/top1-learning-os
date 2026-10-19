@@ -268,8 +268,8 @@ h1,h2{font-weight:650;letter-spacing:-.035em;line-height:1.02}
 setTimeout(function(){var a=document.getElementById("app");if(a&&a.querySelector(".skel")&&!a.querySelector(".slowmsg")){a.insertAdjacentHTML("beforeend","<div class='wrap slowmsg' style='text-align:center;color:#a3a3bd;padding:20px'>Taking longer than usual. Check your internet connection and reload.</div>");}},12000);
 const SUPABASE_URL = 'https://dpddwrkvdkeguhepbqoe.supabase.co';
 const SUPABASE_ANON_KEY = 'sb_publishable_ClyU7XSeMsGfv-ZPD0tG4w_qEYIyGup';
-const APPR_URL = 'https://script.google.com/macros/s/AKfycbw-M86pgRSbbG5cZLBPsmBwe0KWv1Qt55ItrcWtb3Dyc1qojOh9aMpeTM9m2tw6bs1q/exec';
-function isAdmin(){ const em=(SESSION && SESSION.user && SESSION.user.email || '').toLowerCase(); return !!em && localStorage.getItem('top1_admin_'+em)==='1'; }
+var SIGNUP_LOG_URL = 'https://script.google.com/macros/s/AKfycbyziVnZGIdBcl8BUnHSXNtk3JIJY5uEEVXHU7RKn6dRW9hn_nXzooavkseaNy0p3hR4bA/exec';
+function isAdmin(){ const em=(SESSION && SESSION.user && SESSION.user.email || '').toLowerCase(); return em==='shivamchand56@gmail.com'; }
 /* ============ COURSE DATA ============ */
 const PHASES = [
  {n:1, name:"Analytical Foundations", desc:"Frame problems before reaching for frameworks: business economics, quantitative reasoning, structuring, evidence, synthesis."},
@@ -515,57 +515,43 @@ var LINKERR='';
 function renderLogin(){
   document.getElementById('app').innerHTML = `
   <div class="hero"><div class="blob b1"></div><div class="blob b2"></div><div class="blob b3"></div><div class="wrap">
-    <div class="kick">Admin-approved access</div>
+    <div class="kick">Free access - email code sign-in</div>
     <h1>The Top 1% <span class="grad">Learning OS</span></h1>
     <p class="sub">College-style, quiz-gated. Watch the module, pass the quiz, unlock the next day - progress syncs across your phone and laptop.</p>
     <div class="chips" style="margin-top:18px"><span class="pill"><img class="ic3d-s" src="${IMG3D.school}" alt=""> Learn</span><span class="pill"><img class="ic3d-s" src="${IMG3D.openbook}" alt=""> Library</span><span class="pill"><img class="ic3d-s" src="${IMG3D.exam}" alt=""> Case Comp</span></div><div class="chips" style="margin-top:10px"><span class="pill">283 curated reads</span><span class="pill">229 module kits</span><span class="pill">8 practice cases</span></div><div class="tile-row"><div class="sq p1"><img src="${IMG3D.school}" alt=""></div><div class="sq p2"><img src="${IMG3D.puzzle}" alt=""></div><div class="sq p3"><img src="${IMG3D.profit}" alt=""></div><div class="sq p4"><img src="${IMG3D.rocket}" alt=""></div></div>
   </div></div>
   <div class="wrap"><div class="card" style="max-width:460px;margin:40px auto">
-    <h3><span class="ico">&#128272;</span> Request access</h3>
-    <p class="obj">Enter your email to request access. Every request is reviewed by the admin. Once the admin approves your request, your sign-in code appears right here on this page. No password, no email link to hunt for.</p>
+    <h3><span class="ico">&#128272;</span> Sign in</h3>
+    <p class="obj">Enter your email and WhatsApp number. We email you a sign-in code. Type it here and you are in - no password, no waiting for approval.</p>
     <input class="email" id="loginEmail" type="email" placeholder="you@example.com" autocomplete="email">
-    <button class="btn" id="loginBtn" style="width:100%;justify-content:center">Request access</button>
+    <input class="email" id="loginPhone" type="tel" inputmode="numeric" placeholder="WhatsApp number (10 digits)" autocomplete="tel-national" style="margin-top:10px">
+    <label style="display:flex;gap:8px;align-items:flex-start;margin-top:12px;font-size:13px;color:var(--muted);line-height:1.4"><input type="checkbox" id="loginConsent" style="margin-top:2px"> <span>Contact me on WhatsApp/email about Top 1% updates.</span></label>
+    <button class="btn" id="loginBtn" style="width:100%;justify-content:center;margin-top:14px">Send sign-in code</button>
     <div class="note" id="loginMsg"></div>
   </div></div>`;
+  try{
+    const le=localStorage.getItem('top1_lastemail'); if(le) document.getElementById('loginEmail').value=le;
+    const lp=localStorage.getItem('top1_phone'); if(lp) document.getElementById('loginPhone').value=lp;
+  }catch(e){}
   document.getElementById('loginBtn').addEventListener('click', async ()=>{
     const email = document.getElementById('loginEmail').value.trim().toLowerCase();
+    const phone = document.getElementById('loginPhone').value.trim().replace(/\D/g,'');
+    const consent = document.getElementById('loginConsent').checked;
     const msg = document.getElementById('loginMsg');
     if(!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email)){ msg.textContent='Enter a valid email.'; return; }
-    msg.textContent='Checking...';
-    const ap0 = await checkApproved(email);
-    if(ap0 && ap0.approved){ if(ap0.code){ showApproved(email, ap0.code); } else { sendLoginLink(email, msg, true); } return; }
-    await submitRequest(email);
-    showPending(email);
+    if(!/^[6-9]\d{9}$/.test(phone)){ msg.textContent='Enter a valid 10-digit Indian mobile number.'; return; }
+    if(!consent){ msg.textContent='Please tick the consent box so we can contact you about updates.'; return; }
+    try{ localStorage.setItem('top1_lastemail', email); localStorage.setItem('top1_phone', phone); }catch(e){}
+    logSignup(email, phone, consent, 'code_sent');
+    sendLoginLink(email, msg, false);
   });
 }
-function showPending(email){
-  localStorage.setItem('top1_pending', email);
-  document.getElementById('app').innerHTML = `
-  <div class="wrap"><div class="card" style="max-width:480px;margin:80px auto;text-align:center">
-    <div class="lock">&#9203;</div>
-    <h3>Request pending admin approval</h3>
-    <p class="obj">Your request to join the course has been sent. The admin reviews every request personally. The moment the admin approves, your sign-in code appears right here on this page - no email link to hunt for. You can leave this tab open.</p>
-    <p class="note">Checking automatically every 10 seconds - nothing for you to do.</p>
-    <p style="margin-top:16px"><a class="btn ghost" href="#/" onclick="localStorage.removeItem('top1_pending');renderLogin();return false;">Use a different email</a></p>
-  </div></div>`;
-  pollApproval(email);
-}
-async function pollApproval(email){
-  for(let i=0;i<360;i++){
-    await new Promise(r=>setTimeout(r,10000));
-    if(localStorage.getItem('top1_pending')!==email) return;
-    const ap = await checkApproved(email);
-    if(ap && ap.approved){
-      if(ap.code){ showApproved(email, ap.code); }
-      else {
-        localStorage.removeItem('top1_pending');
-        renderLogin();
-        document.getElementById('loginEmail').value = email;
-        sendLoginLink(email, document.getElementById('loginMsg'), true);
-      }
-      return;
-    }
-  }
+function logSignup(email, phone, consent, status){
+  try{
+    if(!SIGNUP_LOG_URL) return;
+    fetch(SIGNUP_LOG_URL, { method:'POST', mode:'no-cors', headers:{'Content-Type':'application/x-www-form-urlencoded'},
+      body:'email='+encodeURIComponent(email)+'&phone='+encodeURIComponent(phone)+'&consent='+(consent?'yes':'no')+'&status='+encodeURIComponent(status||'code_sent')+'&source=web' });
+  }catch(e){}
 }
 function addCodeEntry(email, anchor){
   if(document.getElementById('otpBox')) return;
@@ -581,22 +567,23 @@ function addCodeEntry(email, anchor){
   div.querySelector('#otpBtn').addEventListener('click', async ()=>{
     const token = div.querySelector('#otpCode').value.trim();
     const m = div.querySelector('#otpMsg');
-    if(!/^\d{6,8}$/.test(token)){ m.textContent='Enter the sign-in code (6-8 digits).'; return; }
+    if(!/^\d{6,8}$/.test(token)){ m.textContent='Enter the sign-in code from your email.'; return; }
     m.textContent='Checking code...';
     await loadSb(); const { error } = await sb.auth.verifyOtp({ email, token, type:'email' });
-    m.textContent = error ? ('Code failed: '+error.message) : 'Signed in - loading your dashboard...';
+    if(error){ m.textContent = 'Code failed: '+error.message; }
+    else { m.textContent = 'Signed in - loading your dashboard...'; try{ const r=await sb.auth.getSession(); SESSION = r && r.data ? r.data.session : SESSION; }catch(e){} pullProgress().then(()=>route()); }
   });
 }
 async function sendLoginLink(email, msg, approvedNote){
   try{ await loadSb(); }catch(e){ msg.textContent='Could not load sign-in. Check connection and retry.'; return; }
-  msg.innerHTML = (approvedNote ? '<b>Approved.</b> ' : '') + 'Sending your sign-in link...';
+  msg.innerHTML = (approvedNote ? '<b>Approved.</b> ' : '') + 'Sending your sign-in code...';
   sb.auth.signInWithOtp({ email, options:{ emailRedirectTo: 'https:\/\/top1os.dev\/' } }).then(({error})=>{
     if(error){
       var raw = String(error.message||'');
       var wait = (raw.match(/(\d+)\s*seconds?/)||[])[1];
       msg.innerHTML = /rate|seconds|too many/i.test(raw) ? ('Too many tries. Wait '+(wait||'a minute')+' seconds, then tap Resend. Check Spam too.') : ('Could not send the code ('+raw+'). Tap Resend.');
     } else {
-      msg.innerHTML = 'Sign-in link sent to <b>'+email+'</b>. Open the email on this phone and tap the Sign in link. Not there in a minute? Check Spam or Promotions, or tap Resend.';
+      msg.innerHTML = 'Code sent to <b>'+email+'</b>. Open the email from Top 1% and type the sign-in code below. Not there in a minute? Check Spam or Promotions, or tap Resend.';
     }
     addCodeEntry(email, msg);
     startResend(email, msg);
@@ -624,55 +611,7 @@ function nonceFor(email){
   }
   return n;
 }
-function showApproved(email, code){
-  localStorage.removeItem('top1_pending');
-  renderLogin();
-  document.getElementById('loginEmail').value = email;
-  const msg = document.getElementById('loginMsg');
-  msg.innerHTML = '<b style="color:var(--green)">Approved!</b> Your sign-in code: <b style="font-size:24px;letter-spacing:3px;color:var(--green)">' + code + '</b><br>Type it below and you are in.';
-  addCodeEntry(email, msg);
-  const box = document.getElementById('otpCode');
-  if(box){ box.value = ''; box.focus(); }
-}
-function submitRequest(email){
-  try{
-    return fetch(APPR_URL, { method:'POST', mode:'no-cors', headers:{'Content-Type':'application/x-www-form-urlencoded'}, body:'email='+encodeURIComponent(email)+'&n='+encodeURIComponent(nonceFor(email)) });
-  }catch(e){ return Promise.resolve(); }
-}
-const APPR_MIRROR='1YeIOnNZ__V1uYdYCbc2Or4zgCTVKWVugZV1UVkmlAmk';
-function sha256hex(s){ return crypto.subtle.digest('SHA-256', new TextEncoder().encode(s)).then(d=>{ return Array.from(new Uint8Array(d)).map(b=>b.toString(16).padStart(2,'0')).join(''); }); }
-function checkApproved(email){
-  return new Promise(res=>{
-    if(!APPR_MIRROR){ res(null); return; }
-    let done=false; const finish=v=>{ if(done)return; done=true; res(v); };
-    setTimeout(()=>finish(null),9000);
-    Promise.all([sha256hex(email), sha256hex(email+':'+nonceFor(email))]).then(function(hs){
-      const h1=hs[0], h2=hs[1];
-      fetch('https:\/\/docs.google.com\/spreadsheets\/d\/'+APPR_MIRROR+'\/gviz\/tq?tqx=out:json&headers=1&sheet=mirror').then(r=>{ if(!r||!r.ok) throw new Error('http'); return r.text(); }).then(t=>{
-        const i=t.indexOf('setResponse('); const j=t.lastIndexOf(')'); if(i<0||j<0) throw new Error('wrap');
-        const g=JSON.parse(t.slice(i+12,j));
-        const map={};
-        ((g.table&&g.table.rows)||[]).forEach(function(r){ const c=r.c||[]; const k=c[0]&&(c[0].v!=null?String(c[0].v):''); const v=c[1]?(c[1].f!=null?String(c[1].f):(c[1].v!=null?String(c[1].v):'')):''; if(k) map[k]=v; });
-        if(map[h1]==='ADMIN'){ try{ localStorage.setItem('top1_admin_'+email,'1'); }catch(e){} finish({approved:true, code:null, admin:true}); return; }
-        if(map[h2]){ finish({approved:true, code:map[h2]}); return; }
-        finish(false);
-      }).catch(()=>finish(null));
-    }).catch(()=>finish(null));
-  });
-}
-async function guardSession(){
-  if(!SESSION) return true;
-  const em = (SESSION.user && SESSION.user.email || '').toLowerCase();
-  if(localStorage.getItem('top1_admin_'+em)==='1') return true;
-  const a = await checkApproved(em);
-  if(a === false){
-    try{ await sb.auth.signOut(); }catch(e){}
-    SESSION = null;
-    showPending(em);
-    return false;
-  }
-  return true;
-}
+function guardSession(){ return true; }
 function renderDay(n){
   const d = DAYS[n-1];
   if(!d){ location.hash='#/learn'; return; }
@@ -1613,7 +1552,6 @@ R(/^\/credits$/,()=>{
 });
 
 const MIRROR_BASE='https:\/\/top1os.dev\/';
-const ADMIN_SHEET='https:\/\/docs.google.com/spreadsheets/d/1fnkl3UvyRvlJrqsNH4MSoUC5G2WtRejJXLRxkPBlj-g/edit';
 
 const AI_MODULES=[{"n": 1, "t": "See the machine: how neural nets actually learn", "kick": "Start here", "mins": "2.5 hrs", "obj": ["Explain in plain words what a neural network computes: layers of simple functions composed into one decision", "Walk through gradient descent as 'roll downhill on the error surface' and say what a learning rate does", "Tell apart weights, activations and parameters - and why only weights get learned"], "vids": [{"id": "aircAruvnKk", "t": "But what is a neural network?", "by": "3Blue1Brown"}, {"id": "IHZwWFHWa-w", "t": "Gradient descent, how neural networks learn", "by": "3Blue1Brown"}, {"id": "sDv4f4s2SB8", "t": "Gradient Descent, Step-by-Step", "by": "StatQuest"}], "reads": [{"t": "Dive into Deep Learning - chapters 1 to 3", "u": "https:\/\/d2l.ai\/chapter_introduction\/index.html", "n": "The best free deep-learning book. Interactive, with code you can run."}, {"t": "Neural networks series page", "u": "https:\/\/www.3blue1brown.com\/topics\/neural-networks", "n": "Grant Sanderson's visual series, the reference for the videos above."}], "ex": "Paper exercise, no code: take a 2-input neuron (weights 0.5 and -1, bias 0.2). Compute its output for three inputs of your choice, then nudge one weight and show the output moved the way gradient descent would want. Write the reasoning in 5 lines.", "quiz": [{"q": "In one line, what is a neural network?", "o": ["A stack of simple functions whose parameters are tuned so inputs map to useful outputs", "A database of human knowledge queried by similarity", "A logic circuit hand-designed by engineers", "A statistical census of the internet"], "a": 0}, {"q": "Gradient descent improves a model by:", "o": ["Deleting the worst neurons", "Moving each weight a small step in the direction that lowers the error", "Randomly reordering training data", "Increasing the number of layers"], "a": 1}, {"q": "The learning rate controls:", "o": ["How much data the model sees", "How big each downhill step is", "How many layers the network has", "The size of the training set"], "a": 1}, {"q": "Which of these is LEARNED during training?", "o": ["Activations", "Inputs", "Weights", "Labels"], "a": 2}, {"q": "Why stack many layers instead of one big one?", "o": ["It uses less electricity", "Depth lets the network build simple features into complex ones step by step", "One layer cannot hold enough numbers", "It makes the math easier to grade"], "a": 1}]},
 {"n": 2, "t": "The math that powers it - only what you need", "kick": "Toolkit", "mins": "3 hrs", "obj": ["Read a matrix multiplication as 'many dot products at once' and say why GPUs love it", "Use probability to say what a model's confidence actually means", "Know which three ideas (vectors, dot products, gradients) cover 80% of ML math"], "vids": [{"id": "kjBOesZCoqc", "t": "Essence of linear algebra (series preview)", "by": "3Blue1Brown"}], "reads": [{"t": "Mathematics for Machine Learning (free book)", "u": "https:\/\/mml-book.github.io\/", "n": "The exact math ML uses, nothing more. Chapters 2, 3 and 5 are the core."}, {"t": "Immersive linear algebra (interactive)", "u": "https:\/\/immersivemath.com\/ila\/index.html", "n": "A free interactive textbook - play with vectors and transformations in 3D."}, {"t": "Seeing Theory (interactive probability)", "u": "https:\/\/seeing-theory.brown.edu\/", "n": "Brown University's visual probability course. Beautiful and short."}], "ex": "Open Immersive Linear Algebra, chapter on matrix-vector products. Take a 2x2 matrix and three vectors, compute by hand, then check in the tool. Write one line on what the matrix DID geometrically (rotate, stretch, flip).", "quiz": [{"q": "A dot product of two vectors roughly measures:", "o": ["Their total length", "How much they point in the same direction", "Their distance on a map", "The angle of the larger one"], "a": 1}, {"q": "Why do ML systems love matrix multiplication?", "o": ["It is new and fashionable", "It is thousands of tiny independent multiplies - perfect for parallel GPUs", "It needs less memory than loops", "It was invented by Google"], "a": 1}, {"q": "A model outputs 0.9 for 'cat'. The 0.9 is best read as:", "o": ["90% of the image is cat", "The model's calibrated confidence in its answer", "The cat's size", "The number of cat neurons"], "a": 1}, {"q": "Which trio covers most of the math used day-to-day in ML?", "o": ["Geometry, trigonometry, algebra II", "Vectors, dot products, gradients", "Set theory, proofs, topology", "Decimals, fractions, ratios"], "a": 1}, {"q": "A gradient tells you:", "o": ["The final answer", "How a small change in each input changes the output", "The average of the data", "The model's memory use"], "a": 1}]},
@@ -1861,7 +1799,7 @@ R(/^\/admin$/,()=>{
   setView(`<div class="wrap page">${crumbs([['Home','#/'],['Admin']])}
   <span class="chip">Admin</span><h1>Admin</h1><p class="sub">Signed in as ${esc(em)}. Every module is open for you and nothing is gated.</p>
   <div class="stats"><div class="stat"><b>${DAYS.length}</b><span>modules open</span></div><div class="stat"><b>${LIB.length}</b><span>library reads</span></div><div class="stat"><b>${CC_FRAMEWORKS.length+CC_CASES.length+CC_MODELS.length}</b><span>case comp items</span></div><div class="stat"><b>${done}</b><span>modules you cleared</span></div></div>
-  <div class="card"><h3>Approve learners</h3><p class="obj">New access requests appear in the Requests sheet. Set the approved column to TRUE for a person to let them in.</p><a class="btn" href="${ADMIN_SHEET}" target="_blank" rel="noopener noreferrer">Open Requests sheet ↗</a></div>
+  <div class="card"><h3>Signups</h3><p class="obj">Every sign-up (email, WhatsApp number, consent, time) lands in the private Signups sheet.</p><a class="btn" href="https://docs.google.com/spreadsheets/d/1cBRbIpIQmv8_4EvQixwAxGoc5cdUBS8fZmjpIb5o5ro/edit" target="_blank" rel="noopener noreferrer">Open Signups sheet ↗</a></div>
   <div class="card"><h3>Direct links</h3><p class="obj">Open any of these to land on the page directly.</p>${links.map(l=>`<p><a href="${MIRROR_BASE+l[1]}" target="_blank" rel="noopener noreferrer" style="text-decoration:underline;word-break:break-all">${esc(MIRROR_BASE+l[1])}</a></p>`).join('')}</div>
   <div class="card"><h3>Quick jump</h3><div class="chips"><a class="pill" href="#/learn">Learn</a><a class="pill" href="#/library">Library</a><a class="pill" href="#/case">Case Comp</a></div></div></div>`,'Admin');
 });
@@ -1872,13 +1810,23 @@ async function boot(){
   var h0=location.hash||'';
   var hasTokens = h0.indexOf('access_token=')>-1 || h0.indexOf('error=')>-1 || h0.indexOf('error_description=')>-1;
   var hasHint=false; try{ hasHint=Object.keys(localStorage).some(function(k){ return k.indexOf('sb-')===0 && k.indexOf('-auth-token')>-1; }); }catch(e){}
-  var pend0 = localStorage.getItem('top1_pending');
-  if(!hasTokens && !hasHint && !pend0){ renderLogin(); loadSb().catch(function(){}); return; }
+  if(!hasTokens && !hasHint){
+    renderLogin();
+    loadSb().then(function(){
+      if(sb && sb.auth && sb.auth.onAuthStateChange){
+        sb.auth.onAuthStateChange((event, session)=>{
+          const was=!!SESSION; SESSION = session||null;
+          if(SESSION && !was){ pullProgress().then(()=>route()); }
+        });
+      }
+    }).catch(function(){});
+    return;
+  }
   if(h0.indexOf('error=')>-1){
     location.hash = '';
     renderLogin();
-    document.getElementById('loginMsg').innerHTML = 'That sign-in link was already used or expired. Enter your email for a fresh link - or sign in with a code.';
-    const em0 = (localStorage.getItem('top1_pending')||'');
+    document.getElementById('loginMsg').innerHTML = 'That sign-in link was already used or expired. Enter your email for a fresh code.';
+    const em0 = (localStorage.getItem('top1_lastemail')||'');
     if(em0){ document.getElementById('loginEmail').value = em0; }
     return;
   }
@@ -1902,12 +1850,9 @@ async function boot(){
   if(sb && sb.auth && sb.auth.onAuthStateChange){
     sb.auth.onAuthStateChange((event, session)=>{
       const was=!!SESSION; SESSION = session||null;
-      if(SESSION && !was){ guardSession().then(ok=>{ if(ok) pullProgress().then(()=>route()); }); }
+      if(SESSION && !was){ pullProgress().then(()=>route()); }
     });
   }
-  if(SESSION && !(await guardSession())) return;
-  const pend = localStorage.getItem('top1_pending');
-  if(!SESSION && pend){ showPending(pend); return; }
   try{
     if(typeof google!=='undefined' && google.script && google.script.url){
       await new Promise(function(r){ var t=setTimeout(r,1500); google.script.url.getLocation(function(loc){ clearTimeout(t); try{ var p=(loc&&loc.parameter)||{}; var pg=String(p.page||p.go||'').replace(/[^a-zA-Z0-9\/_-]/g,''); if(pg && (!location.hash||location.hash==='#'||location.hash==='#/')){ history.replaceState(null,'','#/'+pg); } }catch(e){} r(); }); });
