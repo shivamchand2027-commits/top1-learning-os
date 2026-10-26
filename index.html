@@ -261,7 +261,7 @@ h1,h2{font-weight:650;letter-spacing:-.035em;line-height:1.02}
 <style id="readable-type">#nav a,#bnav a{letter-spacing:.01em;font-kerning:none}#app .wrap.page h1,#app .wrap.page h2,#app .wrap.page h3{letter-spacing:.015em;font-kerning:none}</style>
 <style id="listing-footer-style">#listing-footer{border-top:1px solid var(--line);padding:34px 0 32px;margin-top:36px;background:var(--sf)}#listing-footer .wrap{display:grid;grid-template-columns:1fr auto;gap:12px 28px;align-items:center}#listing-footer h2{font-size:23px;letter-spacing:0;font-weight:650;margin:0 0 5px}#listing-footer p{margin:0;color:var(--muted);font-size:14px}.listing-eyebrow{font-size:11px!important;text-transform:uppercase;letter-spacing:.1em;font-weight:700;margin-bottom:8px!important}.listing-links{display:flex;gap:14px;align-items:center;flex-wrap:wrap}.listing-links a{display:flex;align-items:center;min-height:56px;border-radius:9px}#listing-footer{position:relative;z-index:56}.listing-links img{display:block;max-width:100%;height:auto}.listing-queued{grid-column:1/-1;display:flex;gap:10px 24px;flex-wrap:wrap}.listing-queued a{min-height:44px;display:inline-flex;gap:5px;align-items:center;font-size:14px;text-decoration:underline}.listing-queued img{display:block;margin-right:8px}.listing-queued span{font-size:12px;color:var(--muted)}.listing-peerpush{display:flex;flex-direction:column;gap:5px}.listing-peerpush>span{font-size:12px;color:var(--muted)}.listing-note{grid-column:1/-1;font-size:12px!important}@media(max-width:850px){#listing-footer .wrap{grid-template-columns:1fr;gap:20px}.listing-links{gap:12px}#listing-footer{padding-bottom:120px}body.nologin #listing-footer{padding-bottom:32px}}@media(prefers-reduced-motion:reduce){#listing-footer *{transition:none}}</style>
 </head>
-<body class="nologin">
+<body class="nologin" data-clarity-mask="true">
 <a class="skip" href="#app">Skip to content</a>
 <header id="nav"><div class="in"><a class="logo" href="#/"><i>Top 1%</i><span>Learning OS</span></a>
 <nav class="tabs" aria-label="Main"><a data-sec="learn" href="#/learn">Learn</a><a data-sec="lib" href="#/library">Library</a><a data-sec="case" href="#/case">Case Comp</a><a data-sec="credits" href="#/credits">AI Credits<span style="background:#f59e0b;color:#fff;font-size:10px;font-weight:800;padding:2px 7px;border-radius:999px;vertical-align:2px;box-shadow:0 2px 8px rgba(245,158,11,.45);margin-left:3px">NEW</span></a><a data-sec="comm" href="#/community">Community</a><a data-sec="admin" id="adminTab" href="#/admin" style="display:none">Admin</a></nav><span class="sp"></span>
@@ -297,5 +297,23 @@ h1,h2{font-weight:650;letter-spacing:-.035em;line-height:1.02}
 <script defer src="/data/books.js?v=fo1"></script>
 <script defer src="/data/case-gallery.js"></script>
 <script defer src="/app.js?v=release1"></script>
+<!-- Optional session analytics: never loaded before explicit visitor acceptance. -->
+<style>
+#analytics-consent{position:fixed;z-index:120;left:16px;right:16px;bottom:18px;max-width:620px;margin:auto;background:#fffdfa;color:#292720;border:1px solid #d8d4cc;border-radius:16px;padding:18px;box-shadow:0 8px 32px #0002;font-size:14px;line-height:1.5}#analytics-consent[hidden]{display:none}#analytics-consent p{margin:0 0 12px}#analytics-consent .analytics-actions{display:flex;gap:10px;flex-wrap:wrap}#analytics-consent button,#analytics-settings{font:inherit;cursor:pointer}#analytics-consent button{padding:9px 18px;border:1px solid #aaa59c;border-radius:9px;background:#fffdfa;color:#292720}#analytics-consent button[data-choice=accepted]{background:#24221d;color:#fff}#analytics-settings{background:none;border:0;text-decoration:underline;color:inherit;padding:8px;font-size:12px}#analytics-consent a{color:inherit;text-decoration:underline}
+</style>
+<section id="analytics-consent" role="region" aria-label="Optional analytics" hidden><p><strong>Help improve Top 1% Learning OS?</strong><br>With your permission, Microsoft Clarity records clicks, scrolling and page layout to help us improve the site. Text and form entries are masked. Analytics cookies may be used; advertising storage stays off. Declining keeps Clarity off. <a href="https://privacy.microsoft.com/privacystatement" target="_blank" rel="noopener noreferrer">Microsoft privacy notice</a></p><div class="analytics-actions"><button type="button" data-choice="declined">Decline</button><button type="button" data-choice="accepted">Accept analytics</button></div></section>
+<script>
+(function(){
+'use strict';
+var key='top1.analytics-consent.v1',box=document.getElementById('analytics-consent'),loaded=false;
+function get(){try{return localStorage.getItem(key)}catch(e){return null}}
+function start(){if(loaded||/access_token=|refresh_token=|code=|token_hash=|error_description=/i.test(location.href))return;loaded=true;window.clarity=window.clarity||function(){(window.clarity.q=window.clarity.q||[]).push(arguments)};window.clarity('consentv2',{ad_Storage:'denied',analytics_Storage:'granted'});var s=document.createElement('script');s.async=true;s.src='https://www.clarity.ms/tag/z3vcxsmgtd';s.id='top1-clarity';document.head.appendChild(s)}
+function choose(value){try{localStorage.setItem(key,value)}catch(e){}box.hidden=true;if(value==='accepted'){start()}else if(loaded){window.clarity('consentv2',{ad_Storage:'denied',analytics_Storage:'denied'});location.reload()}}
+box.querySelectorAll('button[data-choice]').forEach(function(b){b.addEventListener('click',function(){choose(b.dataset.choice)})});
+var settings=document.createElement('button');settings.type='button';settings.id='analytics-settings';settings.textContent='Analytics preferences';settings.addEventListener('click',function(){box.hidden=false;box.querySelector('button').focus()});var footer=document.querySelector('#listing-footer .wrap');if(footer)footer.appendChild(settings);
+window.addEventListener('hashchange',function(){if(get()==='accepted')start()});if(get()==='accepted')start();else if(get()!=='declined')box.hidden=false;
+})();
+</script>
+
 </body>
 </html>
