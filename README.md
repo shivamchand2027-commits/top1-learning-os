@@ -132,3 +132,6 @@ Original synthetic exercises/rubrics retained. Eleven editable sheets and matchi
 
 ### D174/D176 native capstone practice
 Original synthetic exercises/rubrics retained. Nine-sheet execution memo/tracker and twelve-sheet equity/reserves workbook with matching PDFs, independent 39/58 baseline formula tests, changed-input/invalid/broken-reference checks and blank actual learner/reviewer results. Separate paths and conditional stage gates are not budget or investment approval. No learner/full source/full AV/cross-viewer/account validation or overall 10/10 claim.
+
+### D71/D77/D89 native practice
+Original synthetic cases and rubrics retained. Seven-sheet charter, eight-sheet independent operating/PV review and nine-sheet timed mock with matching PDFs. Native scenario/invalid/reference checks and independent arithmetic; actual learner/reviewer/timing fields remain blank or undefined. No real authority, learner/source/full AV/cross-viewer/account validation or overall 10/10 claim.
