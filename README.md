@@ -171,3 +171,6 @@ Ten-sheet fictional joint probabilities, Bayes reversal, optimal foldback, gross
 
 ### D123 native prior and frozen forecast review
 Ten-sheet fictional reference class and Bayes update, exact-duplicate evidence counterexample, frozen forecast ledger and binary versus two-coordinate Brier scoring, with separate actual-error and delayed-transfer record, with matching PDF. Independent arithmetic and controlled native scenario/invalid/isolation/reference checks. Original written exercises retained; actual learner fields blank. No real financial authority, learner/source/full AV/cross-viewer/account clearance or overall 10/10 claim.
+
+### D124 native corrected value and BATNA review
+Ten-sheet fictional corrected ARR value bridge, comparable BATNA reservation ceiling, common sunk-cost invariance, information categories and unsent review draft, with separate actual-error and delayed-transfer record, with matching PDF. Independent arithmetic and controlled native scenario/invalid/isolation/reference checks. Original written exercises retained; actual learner fields blank. No real financial authority, learner/source/full AV/cross-viewer/account clearance or overall 10/10 claim.
