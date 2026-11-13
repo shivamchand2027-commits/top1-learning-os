@@ -207,3 +207,6 @@ Ten-sheet fictional net-parenting, rival-owner, internal-transfer, contract and 
 
 ### D135 acquisition value and price lab
 Eleven-sheet fictional operating/equity, control, synergy, whole-ceiling bid, delay and overlap lab. Twelve-page PDF. Independently recomputed formulas, changed/invalid/isolation/reference tests; original exercise retained and actual work blank. Written source coverage bounded; no current-company verdict, tax advice or actual corporate execution, new account/spend, native cross-viewer, independent learner or overall 10/10 claim.
+
+### D136 decision boundaries and change lab
+Ten-sheet fictional decision-boundary, adoption, service tradeoff and assumption-isolated follow-up lab. Eleven-page PDF. Independently recomputed formulas, changed/invalid/isolation/reference tests; original exercise retained and actual work blank. Written source coverage bounded; no current-company verdict, tax advice or actual corporate execution, new account/spend, native cross-viewer, independent learner or overall 10/10 claim.
