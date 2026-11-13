@@ -57,3 +57,6 @@ Seven-sheet `/practice/top1-d52-valuation-practice.xlsx` and PDF preserve the fi
 
 ### D90 editable decision practice - 13 November 2026
 Ten-slide PPTX, PDF and four-case CSV retain the synthetic D85/86/D88 case and D90 rubric. Delay of collections by 4 leaves revenue unchanged, takes cash 1.1 to -2.9, and separate rework 1.2 takes cash to -4.1. Forty-three rational-value/identity/scenario checks passed. Native tables/chart/notes retained; all ten rendered slides inspected. Day0/30/60/90 are fictional checkpoints, not real assignments. Endpoint gaps are not dated peak funding. No timed/spoken learner defence, recording review, real approval, PowerPoint/Slides parity or overall10/10 is claimed.
+
+### D162 runnable synthetic portfolio lab - 13 November 2026
+Prior authored model core packaged as standard-library Python,6-scenario paths/statistics,baseline bins/SVG and4-page PDF. Independent integer-sixths/rational-waterfall evaluator matched24,000path values,48strict threshold checks,36prior bins,12baseline references and budget/tie/constant/edge controls. Extracted ZIP regenerated all5outputs byte for byte. FourPDFpages and SVG inspected. Seed/draworder/follow-on pricing retained; original exercise and quiz preserved. No empirical forecast, real fund policy, independent learner transfer, fullAV or overall10/10 clearance.
