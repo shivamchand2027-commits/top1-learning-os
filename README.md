@@ -198,3 +198,6 @@ Ten-sheet fictional performance threshold/trajectory, first-cohort denominator, 
 
 ### D132 resilience stress lab
 Twelve-sheet fictional acquisition, customer-weighted CAC, monthly cash, closed causal loop and three-policy expected-cost/capacity lab. Thirteen-page PDF. Independently recomputed formulas, changed/invalid/isolation/reference tests; original exercise retained and actual work blank. Written source coverage bounded; no probability calibration, business continuity certification, supplier/campaign execution, new account/spend, native cross-viewer, independent learner or overall 10/10 claim.
+
+### D133 resilience stress lab
+Fourteen-sheet fictional changed-game, finite-horizon, noisy-policy and integrated-evidence review lab. Fifteen-page PDF. Independently recomputed formulas, changed/invalid/isolation/reference tests; original exercise retained and actual work blank. Written source coverage bounded; no probability calibration, business continuity certification, supplier/campaign execution, new account/spend, native cross-viewer, independent learner or overall 10/10 claim.
