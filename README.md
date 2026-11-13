@@ -234,3 +234,6 @@ Eleven-sheet fictional growth loops and finite cohort lab. Twelve-page PDF. Disc
 
 ### D144 fund entities fees and terms lab
 Twelve-sheet fictional fund entities, fees and terms lab. Twelve-page PDF. Separate voluntary/stipulated commitment, annual fee bases, after-all-cost capital-first waterfall and staged calls; eight negotiated term comparisons. No actual fund formation or legal applicability certification. Independently recomputed formulas, changed/invalid/isolation/reference tests; original exercise retained and actual work blank. Written source coverage bounded; no actual formation, solicitation, capital call, fee payment, commitments or legal certification, new account/spend, native cross-viewer, independent learner or overall 10/10 claim.
+
+### D145 cash-capped preferred return and catch-up lab
+Ten-sheet fictional waterfall lab/ten-page PDF: committed/paid/invested capital, cash-capped compound preference/full100percent GP catch-up, seven cash scenarios, separate early carry/ultimate entitlement/assumed recovery.79 baseline formulas independently recomputed,changed/boundary/invalid/reference checks.Original exercise retained/actual evidence blank.No actual distributions,legal/tax opinion,clawback demand,recovery,account or spend; no native cross-viewer/independent learner/overall10 claim.
