@@ -186,3 +186,6 @@ Eleven-sheet fictional routing economics, one-month NPV, replication horizon, bu
 
 ### D128 native new-demand proposal
 Twelve-sheet fictional monthly cost bridge, own-product cannibalization, distinct fixed-count versus fixed-rate break-even, defined-category registry, strategy canvas and ERRC dependencies, matching PDF. Independently computed formulas and controlled scenario, invalid, isolation and broken-reference checks. Original exercise retained; actual observations and learner work blank. No real experiment, pricing, enrollment or spend authority; no full source/AV, independent learner, cross-viewer, account or overall 10/10 claim.
+
+### D129 native repeated-game incentives
+Ten-sheet fictional stage best responses, infinite perfect-observation grim test, finite known-horizon comparison, public false-alarm probabilities and separately evaluated noisy policy value, conditional signaling incentives, matching PDF. Independent formulas and controlled changes/invalid/isolation/reference checks. Original exercise retained; actual work blank. No real competitor coordination or signal, price/subsidy action or spend. No full source/AV, independent learner, cross-viewer, account or overall 10/10 claim.
