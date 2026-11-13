@@ -243,3 +243,6 @@ Ten sheets/ten PDF pages: complete versus selected deal population, investor fee
 
 ### D147 contract bases and investor reconciliation lab
 Eleven sheets/twelve PDF pages compare stipulated fee-included and fee-excluded waterfall bases with unchanged actual investor contributions, cash-capped catch-up, simplified net NAV roll and separate contribution-after-spend review.99 baseline formulas independently recomputed with changed/boundary/invalid/reference tests.Original questions/keys retained,actual evidence/permission/accepted-owner plan blank.No actual payout,contract opinion,investment,outreach,account or spend.Fullsource/AV/native parity/independent learner/overall10 remain open.
+
+### D148 administrator reconciliation and notice review
+Twelve sheets/thirteen PDF pages preserve original call allocation and add independent supplemental contribution/distribution/commitment-impact classifications, snapshot/bridge NAV and net investor multiples.41 baseline formulas independently recomputed;changed/boundary/invalid/reference tests.Explicit incomplete notice placeholders,no actual bankdetails,report,transfer,account or spend.D147 extension preference typo11.8114732 corrected to11.8114632;its workbook/formulas were already right.Original questions/keys retained.Fullsource/AV/nativeparity/independentlearner/overall10remainopen.
