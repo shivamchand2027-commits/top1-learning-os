@@ -270,3 +270,6 @@ Ten sheets/ten PDF pages;53 baseline formulas independently recomputed;20 change
 
 ### D156 financing economics and instrument evidence lab
 Twelve sheets/twelve PDF pages;59 baseline formulas independently recomputed;23 changed sets/1357 checks+59 restored,12 boundaries/708,20 invalid/1180,six broken refs. Three-round walk, pool ordering, conditional cap-binding toy, supplied-share price alternatives and simple note conversion. No actual financing,legal clearance,outreach,account or spend. Original keys retained;fullsourceAV/nativeparity/independentlearner/overall10 remain open.
+
+### D157 joint-election exit waterfall lab
+Eleven sheets/eleven PDF pages;181 baseline formulas independently recomputed;11 changed sets/1991 checks+181 restored,18 boundaries/3258,12 invalid/2172,six explicit exit-participation cases/1110 checks,six broken refs. All eight vectors, own-switch best responses,seniority,capped participation and residual redistribution. No actual exit,legal clearance,upload,account or spend. Original keys retained;fullsourceAV/nativeparity/independentlearner/overall10 remain open.
