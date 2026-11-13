@@ -108,3 +108,6 @@ Seven-sheet XLSX/seven-page PDF keeps original already-net payoff and funding ca
 
 ### D78-D79 climate and seed practice
 Eleven-sheet XLSX/eleven-page PDF preserves twenty invented company/evidence rows, ownership and scenario-return formulas, fixed conditional bundle, reserve budget, climate counterfactuals and C01/C07 memo frames. Native changed-context tests retain evidence deferrals despite arithmetic passes. No actual company diligence, investment, learner transfer or emissions validation. Original cases/rubrics unchanged.
+
+### D78-D79 source-depth extension
+Publisher guidance sections2-4: potential/planned impact, annual sales versus recurring fleet, commercial forecasts, attribution and debated additionality. New exact three-year cohort teaching transfer compares dynamic/static baselines and retirement. No empirical/company/credit/learner validation; original cases/rubrics and native artifact retained.
