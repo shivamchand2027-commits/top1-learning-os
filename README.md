@@ -117,3 +117,6 @@ Seven sheets/pages retain synthetic original cases and rubric. Dated cash and re
 
 ### D82-D83 authored native board practice
 Seven-sheet workbook and eight-slide editable packet preserve the original synthetic case and rubrics. Incremental operating/cash bridge, dated floor test, separate quality denominator, downside unknown timing, conditional thresholds and fictional review register.89 saved formulas, no errors/external/macros. Authored tests only, no actual timer, board/learner response, real rights or overall10/10.
+
+### D84 authored mixed-transfer workbook
+Ten-sheet editable lab preserves original synthetic case/rubric. Separate operating versus cash timing, independent climate and deal ownership models, blank actual attempts and future transfer prompts.104 cached formulas, zero errors/external/macros. Authored native tests only, not learner/delayed/Excel-Sheets parity or overall10/10.
