@@ -162,3 +162,6 @@ Thirteen-sheet fictional locked score-bin calibration, Brier, classification cos
 
 ### D119-D120 native retrieval and counterfactual review
 Twelve-sheet fictional fresh retrieval bins, assignment/exposure, seller difference-in-differences, net contribution, bias sensitivity and control-promotion adjustment, with separate actual-error and delayed-transfer record, with matching PDF. Independent arithmetic and controlled native scenario/invalid/isolation/reference checks. Original written exercises retained; actual learner fields blank. No real financial authority, learner/source/full AV/cross-viewer/account clearance or overall 10/10 claim.
+
+### D121 native frozen-forecast and censored-sales review
+Twelve-sheet fictional rolling forecasts, past-only timestamp ledger, error metrics, cost-ranking reversal, dynamic cost tie and censored-demand unknowns, with separate actual-error and delayed-transfer record, with matching PDF. Independent arithmetic and controlled native scenario/invalid/isolation/reference checks. Original written exercises retained; actual learner fields blank. No real financial authority, learner/source/full AV/cross-viewer/account clearance or overall 10/10 claim.
