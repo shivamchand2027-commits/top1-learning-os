@@ -159,3 +159,6 @@ Twelve-sheet fictional rare-event matrix/review-policy cost and fixed-horizon tw
 
 ### D117-D118 native score and assignment review
 Thirteen-sheet fictional locked score-bin calibration, Brier, classification cost, frozen later outcomes and separate assigned-user inference/guardrail/multiplicity, with separate actual-error and delayed-transfer record, with matching PDF. Independent arithmetic and controlled native scenario/invalid/isolation/reference checks. Original written exercises retained; actual learner fields blank. No real financial authority, learner/source/full AV/cross-viewer/account clearance or overall 10/10 claim.
+
+### D119-D120 native retrieval and counterfactual review
+Twelve-sheet fictional fresh retrieval bins, assignment/exposure, seller difference-in-differences, net contribution, bias sensitivity and control-promotion adjustment, with separate actual-error and delayed-transfer record, with matching PDF. Independent arithmetic and controlled native scenario/invalid/isolation/reference checks. Original written exercises retained; actual learner fields blank. No real financial authority, learner/source/full AV/cross-viewer/account clearance or overall 10/10 claim.
