@@ -291,3 +291,6 @@ Twelve-sheet/PDF conditional same-price follow-on lab. 65 baseline formulas inde
 
 ### D164 co-invest funding basis, fees and carry
 Eleven-sheet/PDF fictional fee lab:65 baseline formulas independently recomputed; changed, boundary, invalid and81fee/exit/carry/split scenarios.400total raised differs from400invested;fixed412raise differs frompercentage412.244898. Shared20%carry differs fromsequential36%. Nine bounded sourceURLs, sevenpublishers; currentSEBImasterChapter6read,not fullcase/legal clearance. No entity, solicitation, investment, account or spend. Native parity, learner/full source AV and overall10remainopen.
+
+### D165 secondary exit and cash-versus-rollover
+Twelve-sheet/PDF fictional exit lab:58 baseline formulas including3intentional optional UNKNOWNs,16changed/17boundary/42invalidsets,81cash/roll/retention/cost combinations,12optionalprobabilitycases and6brokenrefs checked.9percent secondary net70.56 immediately distributed moves DPI.4to.7528 while TVPI1to.9028. Paper rollover and retained fund cash are not LP distributions. Six bounded written sources including full returned ILPA2023guidance, not current-law/case/transfer clearance. No buyer contact, LP notice, election, trade, account or spend. Native parity, learner/full source AV and overall10remainopen.
