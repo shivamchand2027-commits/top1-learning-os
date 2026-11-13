@@ -69,3 +69,6 @@ Added the public Edmondson1999fullpaper and a self-assessed methods/Table4-6/rev
 
 ### D248 historical handbook source lab
 Complete public2012Valve handbook text read, material evaluation spreads and image-onlyFigure3-2caption inspected. Adds developmental feedback versus compensation ranking/source omissions and a synthetic pairwise-cycle/point-rule sensitivity exercise. Not Valve actual aggregation or personnel guidance. Existing tenMCQs unchanged; source/AV/learner/account limits retained.
+
+### D249 validation-method source lab
+Adds Sackett et al.2023 research discussion, sourceTable1/Figure1 and variability/correction reading; not the Google internal study. Correlation is not hiring accuracy; mean and credibility lower value change a toy decision; synthetic criterion-reliability sensitivity checked. No candidate data or real hiring actions. Existing tenMCQs/keys/options unchanged; broader source/AV/learner/account limits remain.
