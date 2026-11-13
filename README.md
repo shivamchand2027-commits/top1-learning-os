@@ -204,3 +204,6 @@ Fourteen-sheet fictional changed-game, finite-horizon, noisy-policy and integrat
 
 ### D134 parenting and ownership lab
 Ten-sheet fictional net-parenting, rival-owner, internal-transfer, contract and entry-price lab. Eleven-page PDF. Independently recomputed formulas, changed/invalid/isolation/reference tests; original exercise retained and actual work blank. Written source coverage bounded; no current-company verdict, tax advice or actual corporate execution, new account/spend, native cross-viewer, independent learner or overall 10/10 claim.
+
+### D135 acquisition value and price lab
+Eleven-sheet fictional operating/equity, control, synergy, whole-ceiling bid, delay and overlap lab. Twelve-page PDF. Independently recomputed formulas, changed/invalid/isolation/reference tests; original exercise retained and actual work blank. Written source coverage bounded; no current-company verdict, tax advice or actual corporate execution, new account/spend, native cross-viewer, independent learner or overall 10/10 claim.
