@@ -66,3 +66,6 @@ Freshly read two assigned Kauffman articles and inspected29staticimages. Add mea
 
 ### D247 full-paper reading lab
 Added the public Edmondson1999fullpaper and a self-assessed methods/Table4-6/reverse-coding exercise. Distinguishes51team-level observations from427respondents; reporter-specific efficacy support, association versus causality, and source-internal count/ICC discrepancies. Synthetic arithmetic only; no real survey/diagnosis, fullTEDAV or learner/account clearance. Existing ten keyedMCQs unchanged.
+
+### D248 historical handbook source lab
+Complete public2012Valve handbook text read, material evaluation spreads and image-onlyFigure3-2caption inspected. Adds developmental feedback versus compensation ranking/source omissions and a synthetic pairwise-cycle/point-rule sensitivity exercise. Not Valve actual aggregation or personnel guidance. Existing tenMCQs unchanged; source/AV/learner/account limits retained.
