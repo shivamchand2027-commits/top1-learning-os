@@ -129,3 +129,6 @@ Original synthetic exercises/rubrics preserved. D85 has 15 editable slides, two 
 
 ### D173/D175/D177 versioned statement practice
 Original synthetic exercises/rubrics retained. Eleven editable sheets and matching PDF cover original statements, independent AR-only and stock-only corrections, source-to-cell impact, conditional memo, six invented skeptical-panel challenges and blank actual-learner evidence. Authored native execution tests 148 baseline cells, independent AR/stock/payable/COGS changes and restoration plus invalid/unbalanced/broken-reference failures. 148 saved caches have no errors; all 11 printed sheets visually inspected, intro clipping repaired. Cash 9/3/5, income 6 and assets 78; floor equality is not a breach. No real panel/audit/financing, learner validation, cross-viewer parity, full source/AV or overall 10/10.
+
+### D174/D176 native capstone practice
+Original synthetic exercises/rubrics retained. Nine-sheet execution memo/tracker and twelve-sheet equity/reserves workbook with matching PDFs, independent 39/58 baseline formula tests, changed-input/invalid/broken-reference checks and blank actual learner/reviewer results. Separate paths and conditional stage gates are not budget or investment approval. No learner/full source/full AV/cross-viewer/account validation or overall 10/10 claim.
