@@ -195,3 +195,6 @@ Eleven-sheet fictional completion difference-in-differences, contribution and br
 
 ### D131 native disruption evidence
 Ten-sheet fictional performance threshold/trajectory, first-cohort denominator, gross-margin versus operating result and incumbent hurdle, process/values-fit evidence lab, matching PDF. Independent formulas and changed/invalid/isolation/reference checks. Original exercise retained; actual work blank. Institute/RPV and dated taxi versus black-car interpretations plus independent criticism do not supply current company verdicts or predictive certainty. No restructuring, investment, acquisition, hiring, customer contact or spend. No full source/AV, independent learner, cross-viewer/account/legal or overall 10/10 claim.
+
+### D132 resilience stress lab
+Twelve-sheet fictional acquisition, customer-weighted CAC, monthly cash, closed causal loop and three-policy expected-cost/capacity lab. Thirteen-page PDF. Independently recomputed formulas, changed/invalid/isolation/reference tests; original exercise retained and actual work blank. Written source coverage bounded; no probability calibration, business continuity certification, supplier/campaign execution, new account/spend, native cross-viewer, independent learner or overall 10/10 claim.
