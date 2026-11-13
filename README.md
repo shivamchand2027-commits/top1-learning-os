@@ -150,3 +150,6 @@ Twelve-sheet editable fictional matched GDP/deflator/population ratios, separate
 
 ### D112 native fresh mixed retrieval review
 Twelve-sheet editable fictional policy-specific auction selection, exact macro ratios and lender repricing timing with separate actual-error and delayed-transfer record, with matching PDF. Independent arithmetic and controlled native scenario/invalid/isolation/reference checks. Original written exercises retained; actual learner fields blank. No real financial authority, learner/source/full AV/cross-viewer/account clearance or overall 10/10 claim.
+
+### D113-D114 native quote and dated-equity review
+Eleven-sheet fictional importer quote/tariff/contribution bridge and dated currency-consistent equity branches, with separate actual-error and delayed-transfer record, with matching PDF. Independent arithmetic and controlled native scenario/invalid/isolation/reference checks. Original written exercises retained; actual learner fields blank. No real financial authority, learner/source/full AV/cross-viewer/account clearance or overall 10/10 claim.
