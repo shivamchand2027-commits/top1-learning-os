@@ -189,3 +189,6 @@ Twelve-sheet fictional monthly cost bridge, own-product cannibalization, distinc
 
 ### D129 native repeated-game incentives
 Ten-sheet fictional stage best responses, infinite perfect-observation grim test, finite known-horizon comparison, public false-alarm probabilities and separately evaluated noisy policy value, conditional signaling incentives, matching PDF. Independent formulas and controlled changes/invalid/isolation/reference checks. Original exercise retained; actual work blank. No real competitor coordination or signal, price/subsidy action or spend. No full source/AV, independent learner, cross-viewer, account or overall 10/10 claim.
+
+### D130 native platform mechanisms
+Eleven-sheet fictional completion difference-in-differences, contribution and break-even thresholds, opportunity-cost multihoming, distinct operator/app/bank roles, mechanism and policy-evidence ledger, matching PDF. Independent formulas and changed/invalid/isolation/reference checks. Original exercise retained; actual work blank. Selected NPCI consolidated scope retains pricing instruments; dated PIB summary not operative rate verification. No current fee/cap calculator, real payment data, experiment/contact/account/data-use change or spend. No full source/AV, independent learner, cross-viewer or overall 10/10 claim.
