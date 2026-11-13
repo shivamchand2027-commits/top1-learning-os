@@ -261,3 +261,6 @@ Twelve sheets/twelve PDF pages;25 baseline formulas independently recomputed;16 
 
 ### D153 cohort age, status and contribution lab
 Eleven sheets/eleven PDF pages;174 baseline formulas independently recomputed;16changedsets/2784checks+174restored,eightboundaries/1392,20invalid/3480isolation,sixbrokenrefs. Fourteen age-aligned fictional cohorts,N/Afuture,exact-age rates,status-to-cost/sales bridge and observed-age3contribution/CAC. NotfullLTV/NRR/causal/realaccountingverdict. Actualevidence/authority/acceptedownerblank. Noactualbrand/customerdata,privateupload,accountor spend. Originalkeysretained.FullsourceAV/nativeparity/independentlearner/overall10remainopen.
+
+### D154 discount cohort and fund-compartment lab
+Ten sheets/ten PDF pages;54 baseline formulas independently recomputed;20changedsets/1080checks+54restored,eightboundaries/432,20invalid/1080isolation,sixbrokenrefs. Company contribution/CAC separately from independent fund call/NAV/snapshot;draft LPsummary/data-cut unsent. No actual LPletter/call/wire/contact/account/spend. Originalkeysretained.FullsourceAV/nativeparity/independentlearner/overall10remainopen.
