@@ -177,3 +177,6 @@ Ten-sheet fictional corrected ARR value bridge, comparable BATNA reservation cei
 
 ### D125 native portfolio denominator and substitute review
 Ten-sheet fictional market growth and relative share, included-subsidiary overlap, externality/substitute sensitivity and subjective one-axis GE scoring;actual Titan placements unresolved, with separate actual-error and delayed-transfer record, with matching PDF. Independent arithmetic and controlled native scenario/invalid/isolation/reference checks. Original written exercises retained; actual learner fields blank. No real financial authority, learner/source/full AV/cross-viewer/account clearance or overall 10/10 claim.
+
+### D126 native cumulative pilot and targeted review
+Twelve-sheet fresh fictional pilot tree, posterior foldback, ex-ante costs and negative-node sunk cost, signal-quality sensitivity and response-based cumulative review, with separate actual-error and delayed-transfer record, with matching PDF. Independent arithmetic and controlled native scenario/invalid/isolation/reference checks. Original written exercises retained; actual learner fields blank. No real financial authority, learner/source/full AV/cross-viewer/account clearance or overall 10/10 claim.
