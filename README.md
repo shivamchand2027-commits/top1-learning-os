@@ -63,3 +63,6 @@ Prior authored model core packaged as standard-library Python,6-scenario paths/s
 
 ### D162 source-reading calculation
 Freshly read two assigned Kauffman articles and inspected29staticimages. Add mean-of-case-MOIC versus expected-cash/expected-capital checks from rounded source table:3.984 versus4.372222x and1.654 versus1.945x. Distinguish37.780043M chart threshold/43.5%exceedance from29.750M displayed allocation. Not a reproduced vendor engine or corrected unrounded output; original case/quiz and source/AV/learner limits retained.
+
+### D247 full-paper reading lab
+Added the public Edmondson1999fullpaper and a self-assessed methods/Table4-6/reverse-coding exercise. Distinguishes51team-level observations from427respondents; reporter-specific efficacy support, association versus causality, and source-internal count/ICC discrepancies. Synthetic arithmetic only; no real survey/diagnosis, fullTEDAV or learner/account clearance. Existing ten keyedMCQs unchanged.
