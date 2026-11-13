@@ -258,3 +258,6 @@ Eleven sheets/eleven PDF pages separate uniform MRR and independently stipulated
 
 ### D152 diligence pipeline, cost and dependency lab
 Twelve sheets/twelve PDF pages;25 baseline formulas independently recomputed;16 changed sets/400 checks plus25 restored,eight boundaries/200,20 invalid/500 isolation,six broken refs. Original pipeline and monthly contribution preserved;separate stage mix and fixed cost scenarios. Three one-page commercial/technical/legal notes;actual evidence/authority/accepted-owner blank. No company verdict,code access,security test,legal cure,account,investment or spend. Original keys retained.Full source/AV/native parity/independent learner/overall10 remain open.
+
+### D153 cohort age, status and contribution lab
+Eleven sheets/eleven PDF pages;174 baseline formulas independently recomputed;16changedsets/2784checks+174restored,eightboundaries/1392,20invalid/3480isolation,sixbrokenrefs. Fourteen age-aligned fictional cohorts,N/Afuture,exact-age rates,status-to-cost/sales bridge and observed-age3contribution/CAC. NotfullLTV/NRR/causal/realaccountingverdict. Actualevidence/authority/acceptedownerblank. Noactualbrand/customerdata,privateupload,accountor spend. Originalkeysretained.FullsourceAV/nativeparity/independentlearner/overall10remainopen.
