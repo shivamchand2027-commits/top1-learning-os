@@ -153,3 +153,6 @@ Twelve-sheet editable fictional policy-specific auction selection, exact macro r
 
 ### D113-D114 native quote and dated-equity review
 Eleven-sheet fictional importer quote/tariff/contribution bridge and dated currency-consistent equity branches, with separate actual-error and delayed-transfer record, with matching PDF. Independent arithmetic and controlled native scenario/invalid/isolation/reference checks. Original written exercises retained; actual learner fields blank. No real financial authority, learner/source/full AV/cross-viewer/account clearance or overall 10/10 claim.
+
+### D115-D116 native Bayes and fixed-horizon review
+Twelve-sheet fictional rare-event matrix/review-policy cost and fixed-horizon two-proportion inference/prospective planning, with separate actual-error and delayed-transfer record, with matching PDF. Independent arithmetic and controlled native scenario/invalid/isolation/reference checks. Original written exercises retained; actual learner fields blank. No real financial authority, learner/source/full AV/cross-viewer/account clearance or overall 10/10 claim.
