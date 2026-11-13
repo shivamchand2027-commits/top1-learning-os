@@ -165,3 +165,6 @@ Twelve-sheet fictional fresh retrieval bins, assignment/exposure, seller differe
 
 ### D121 native frozen-forecast and censored-sales review
 Twelve-sheet fictional rolling forecasts, past-only timestamp ledger, error metrics, cost-ranking reversal, dynamic cost tie and censored-demand unknowns, with separate actual-error and delayed-transfer record, with matching PDF. Independent arithmetic and controlled native scenario/invalid/isolation/reference checks. Original written exercises retained; actual learner fields blank. No real financial authority, learner/source/full AV/cross-viewer/account clearance or overall 10/10 claim.
+
+### D122 native signal-before-commitment review
+Ten-sheet fictional joint probabilities, Bayes reversal, optimal foldback, gross EVSI/EVPI, net acquisition/delay gains and irrevocable-commitment counterexample, with separate actual-error and delayed-transfer record, with matching PDF. Independent arithmetic and controlled native scenario/invalid/isolation/reference checks. Original written exercises retained; actual learner fields blank. No real financial authority, learner/source/full AV/cross-viewer/account clearance or overall 10/10 claim.
