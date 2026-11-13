@@ -285,3 +285,6 @@ Twelve sheets/PDF pages; 24 baseline formulas independently recomputed, 12 chang
 
 ### D161 downside recap and negotiated alternatives
 Twelve-sheet/PDF fictional joint-election calculator. 181 baseline formulas independently recomputed; changed, boundary, invalid, rights-exit and separate/combined counterfactual tests. Forced B is a negotiated feasible-choice assumption, not voluntary acceptance. Common gains must be re-solved, not added. No actual employee entitlement, vote, legal clearance, transaction, account or spend. Native parity, learner/full source AV and overall 10 remain open.
+
+### D163 follow-on, reserves and board evidence
+Twelve-sheet/PDF conditional same-price follow-on lab. 65 baseline formulas independently recomputed; changed, boundary, invalid and 81 price/ownership/take-up scenarios. Full6 preserves12%, partial3 gives11%, none10%; budget fit is not investment merit. Company cash differs from fund reserves. Six bounded written sources including selected IPEV2025 pages. No actual investment, valuation, board consent, account or spend. Native parity, learner/full source AV and overall 10 remain open.
