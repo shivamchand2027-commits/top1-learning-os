@@ -114,3 +114,6 @@ Publisher guidance sections2-4: potential/planned impact, annual sales versus re
 
 ### D80-D81 native objection and revision lab
 Seven sheets/pages retain synthetic original cases and rubric. Dated cash and rework transfer, operating/receivables bridges, quality and invitation denominators, evidence/objection log, unknown B peak/quality and actual rights kept separate.75 cached formulas, no errors/external/macros. Authored native tests only, not learner mastery or real research/funding/permission.
+
+### D82-D83 authored native board practice
+Seven-sheet workbook and eight-slide editable packet preserve the original synthetic case and rubrics. Incremental operating/cash bridge, dated floor test, separate quality denominator, downside unknown timing, conditional thresholds and fictional review register.89 saved formulas, no errors/external/macros. Authored tests only, no actual timer, board/learner response, real rights or overall10/10.
