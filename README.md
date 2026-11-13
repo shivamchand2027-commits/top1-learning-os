@@ -111,3 +111,6 @@ Eleven-sheet XLSX/eleven-page PDF preserves twenty invented company/evidence row
 
 ### D78-D79 source-depth extension
 Publisher guidance sections2-4: potential/planned impact, annual sales versus recurring fleet, commercial forecasts, attribution and debated additionality. New exact three-year cohort teaching transfer compares dynamic/static baselines and retirement. No empirical/company/credit/learner validation; original cases/rubrics and native artifact retained.
+
+### D80-D81 native objection and revision lab
+Seven sheets/pages retain synthetic original cases and rubric. Dated cash and rework transfer, operating/receivables bridges, quality and invitation denominators, evidence/objection log, unknown B peak/quality and actual rights kept separate.75 cached formulas, no errors/external/macros. Authored native tests only, not learner mastery or real research/funding/permission.
