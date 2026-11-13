@@ -28,6 +28,10 @@ GitHub Pages serves `/` from `top1-seo-listings-release`, not `main`. Preserve i
 
 Use an up-to-date normal Git checkout. Inspect changes, run syntax/data checks, commit and push without force. Verify the Pages build and the actual files delivered from https://top1os.dev/ before saying a release is live. A successful push alone does not establish deployment. A rollback should be an ordinary reviewed revert commit, not a forced branch reset.
 
+## Native practice
+
+D103 and D117 link an editable five-sheet workbook under `practice/`, with a PDF print view. It includes finite APV, a three-year LBO with cash/shortfall checks, linear OLS and a separate future-batch comparison, plus blank self-check response cells. The saved workbook was recalculated in LibreOffice against 26 numeric assertions and zero-variance, funding-gap and early-debt-payoff cases. All five PDF sheets were visually inspected. No macros or external data connections. Excel/Google Sheets parity and independent learner transfer were not tested.
+
 ## Verification and limits
 
 The 13 November candidate passed isolated data/explanation checks for 2,590 positive renders, 2,590 changed-stem negatives, 2,590 changed-key negatives and 10,360 changed-option negatives. All 263 lesson objects match the prepared baseline plus recorded changes. Changed content was inspected with the existing visual styling at mobile and desktop widths. Additional APV/LBO/regression calculations were independently recomputed.
