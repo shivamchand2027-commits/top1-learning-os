@@ -222,3 +222,6 @@ Eleven-sheet fictional positioning, four-cell frame-price economics, interaction
 
 ### D140 integrated acquisition review lab
 Ten-sheet fictional integrated acquisition review, terminal timing, enterprise-equity bridge, overlap/delay/demand/integration stresses and separate operating FCFF. Eleven-page PDF. Independently recomputed formulas, changed/invalid/isolation/reference tests; original exercise retained and actual work blank. Written source coverage bounded; no actual outreach, participants, quotes, commitments, actual experiment or unsupported brand claim, new account/spend, native cross-viewer, independent learner or overall 10/10 claim.
+
+### D141 pricing, packages and perceptions lab
+Ten-sheet fictional pricing, packages and perceptions, terminal timing, enterprise-equity bridge, overlap/delay/demand/integration stresses and separate operating FCFF. Eleven-page PDF. Independently recomputed formulas, changed/invalid/isolation/reference tests; original exercise retained and actual work blank. Written source coverage bounded; no actual outreach, participants, quotes, commitments, actual experiment or unsupported brand claim, new account/spend, native cross-viewer, independent learner or overall 10/10 claim.
