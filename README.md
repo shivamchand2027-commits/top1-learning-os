@@ -135,3 +135,6 @@ Original synthetic exercises/rubrics retained. Nine-sheet execution memo/tracker
 
 ### D71/D77/D89 native practice
 Original synthetic cases and rubrics retained. Seven-sheet charter, eight-sheet independent operating/PV review and nine-sheet timed mock with matching PDFs. Native scenario/invalid/reference checks and independent arithmetic; actual learner/reviewer/timing fields remain blank or undefined. No real authority, learner/source/full AV/cross-viewer/account validation or overall 10/10 claim.
+
+### D104/D105 native staged and mixed review
+Twelve-sheet editable fictional stage/follow-on model plus separate debt maturity, terminal reinvestment and startup cases, with matching PDF. Independent arithmetic and controlled native scenario/invalid/isolation/reference checks. Original written exercises retained; actual learner fields blank. No real financial authority, learner/source/full AV/cross-viewer/account clearance or overall 10/10 claim.
