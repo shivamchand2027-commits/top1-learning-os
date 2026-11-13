@@ -105,3 +105,6 @@ Seven-sheet authored XLSX plus eight-page PDF retains 40 synthetic accounts and 
 
 ### D75-D76 decision and information practice
 Seven-sheet XLSX/seven-page PDF keeps original already-net payoff and funding case. Probability sensitivity, constrained/unconstrained EVPI, invented imperfect-signal joint/posterior model, research cost and cash effects, and matrix points are tested separately. All assumptions fictional, no actual research/financing/learner transfer. Original cases/rubrics unchanged.
+
+### D78-D79 climate and seed practice
+Eleven-sheet XLSX/eleven-page PDF preserves twenty invented company/evidence rows, ownership and scenario-return formulas, fixed conditional bundle, reserve budget, climate counterfactuals and C01/C07 memo frames. Native changed-context tests retain evidence deferrals despite arithmetic passes. No actual company diligence, investment, learner transfer or emissions validation. Original cases/rubrics unchanged.
