@@ -102,3 +102,6 @@ Nine-sheet authored workbook retains original undated case and rubric, adds thre
 
 ### D73-D74 denominator practice
 Seven-sheet authored XLSX plus eight-page PDF retains 40 synthetic accounts and 13 completion ledger rows. Named stage rates, eligibility transfer, unit economics and invalid-input tests are natively recalculated. All artifacts fictional; no market validation, learner transfer or real outreach/payment permission. Original case/rubrics unchanged.
+
+### D75-D76 decision and information practice
+Seven-sheet XLSX/seven-page PDF keeps original already-net payoff and funding case. Probability sensitivity, constrained/unconstrained EVPI, invented imperfect-signal joint/posterior model, research cost and cash effects, and matrix points are tested separately. All assumptions fictional, no actual research/financing/learner transfer. Original cases/rubrics unchanged.
