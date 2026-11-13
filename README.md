@@ -264,3 +264,6 @@ Eleven sheets/eleven PDF pages;174 baseline formulas independently recomputed;16
 
 ### D154 discount cohort and fund-compartment lab
 Ten sheets/ten PDF pages;54 baseline formulas independently recomputed;20changedsets/1080checks+54restored,eightboundaries/432,20invalid/1080isolation,sixbrokenrefs. Company contribution/CAC separately from independent fund call/NAV/snapshot;draft LPsummary/data-cut unsent. No actual LPletter/call/wire/contact/account/spend. Originalkeysretained.FullsourceAV/nativeparity/independentlearner/overall10remainopen.
+
+### D155 forecast history and comparable scoring lab
+Ten sheets/ten PDF pages;53 baseline formulas independently recomputed;20 changed sets/1060checks+53 restored,eight boundaries/424,20invalid/1060checks,sixbrokenrefs. Paired binary Brier/skill,unresolved/void eligibility,twenty blank journal slots and four blank reference notes. No actual forecasts,monitoring,outreach,account or spending. Original keys retained;fullsourceAV/nativeparity/independentlearner/overall10 remain open.
