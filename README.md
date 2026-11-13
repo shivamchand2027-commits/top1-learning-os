@@ -75,3 +75,6 @@ Adds Sackett et al.2023 research discussion, sourceTable1/Figure1 and variabilit
 
 ### D250 capability-claim source lab
 Adds official2017chapter1and author2011article: nominated leaders/retrospective perceived capability,1.97versus2.1treatment ofreportsabove100percent,companies/countriesdiscrepancy preserved. Synthetic ratio-of-means versus mean-of-ratios/top-coding/leave-one-out arithmetic. Not actualdata/causaloutputreplication,fullbookorAV. Existing tenMCQs/keys/options unchanged;learner/accountlimitsretained.
+
+### D251 published promotion-study source lab
+Adds selected2019publishedpaper data/methods/TableI-III/IVselectionassumptions/counterfactualreading,distinctfrom2018NBER214firmabstract. Units,stars,logpercentageapproximationandnetincentivebounds;syntheticbaselineprobabilitytransfercheck. Notfull86pageappendix/rawdata/AVreplication orrealpromotionadvice. Existing tenMCQs/keys/options unchanged;learner/accountlimitsretained.
