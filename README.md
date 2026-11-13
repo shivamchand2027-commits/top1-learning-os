@@ -41,3 +41,7 @@ These are not account/learner-flow tests, complete audiovisual reviews, native-w
 ## Licence
 
 Proprietary. All rights reserved.
+
+### D44 fund model
+
+The D44 exercise links `practice/top1-d44-fund-practice.xlsx` and an eight-sheet PDF print view. The workbook models the fictional thirty-holding exit schedule, fees, paid/unpaid carry, NAV, net LP ratios, IRR snapshots and separate charts. LibreOffice recalculation passed 231 baseline numeric checks, ten downside checks, five zero-carry checks and two reserve checks plus undefined/suppression checks. This is authored execution evidence, not learner transfer, cross-application compatibility or real fund performance.
