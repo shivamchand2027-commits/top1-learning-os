@@ -168,3 +168,6 @@ Twelve-sheet fictional rolling forecasts, past-only timestamp ledger, error metr
 
 ### D122 native signal-before-commitment review
 Ten-sheet fictional joint probabilities, Bayes reversal, optimal foldback, gross EVSI/EVPI, net acquisition/delay gains and irrevocable-commitment counterexample, with separate actual-error and delayed-transfer record, with matching PDF. Independent arithmetic and controlled native scenario/invalid/isolation/reference checks. Original written exercises retained; actual learner fields blank. No real financial authority, learner/source/full AV/cross-viewer/account clearance or overall 10/10 claim.
+
+### D123 native prior and frozen forecast review
+Ten-sheet fictional reference class and Bayes update, exact-duplicate evidence counterexample, frozen forecast ledger and binary versus two-coordinate Brier scoring, with separate actual-error and delayed-transfer record, with matching PDF. Independent arithmetic and controlled native scenario/invalid/isolation/reference checks. Original written exercises retained; actual learner fields blank. No real financial authority, learner/source/full AV/cross-viewer/account clearance or overall 10/10 claim.
