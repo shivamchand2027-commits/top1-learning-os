@@ -216,3 +216,6 @@ Ten-sheet fictional cash, internal-receivable elimination, timeline and control-
 
 ### D138 segmentation economics lab
 Ten-sheet fictional pilot economics, relative-search normalization, ADAMS and blank interview-design lab. Eleven-page PDF. Independently recomputed formulas, changed/invalid/isolation/reference tests; original exercise retained and actual work blank. Written source coverage bounded; no actual outreach, participants, quotes, commitments, dataset download or nutrition advice, new account/spend, native cross-viewer, independent learner or overall 10/10 claim.
+
+### D139 positioning and price economics lab
+Eleven-sheet fictional positioning, four-cell frame-price economics, interaction and blank falsification protocol lab. Twelve-page PDF. Independently recomputed formulas, changed/invalid/isolation/reference tests; original exercise retained and actual work blank. Written source coverage bounded; no actual outreach, participants, quotes, commitments, actual experiment or unsupported brand claim, new account/spend, native cross-viewer, independent learner or overall 10/10 claim.
