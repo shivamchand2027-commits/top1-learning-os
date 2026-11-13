@@ -174,3 +174,6 @@ Ten-sheet fictional reference class and Bayes update, exact-duplicate evidence c
 
 ### D124 native corrected value and BATNA review
 Ten-sheet fictional corrected ARR value bridge, comparable BATNA reservation ceiling, common sunk-cost invariance, information categories and unsent review draft, with separate actual-error and delayed-transfer record, with matching PDF. Independent arithmetic and controlled native scenario/invalid/isolation/reference checks. Original written exercises retained; actual learner fields blank. No real financial authority, learner/source/full AV/cross-viewer/account clearance or overall 10/10 claim.
+
+### D125 native portfolio denominator and substitute review
+Ten-sheet fictional market growth and relative share, included-subsidiary overlap, externality/substitute sensitivity and subjective one-axis GE scoring;actual Titan placements unresolved, with separate actual-error and delayed-transfer record, with matching PDF. Independent arithmetic and controlled native scenario/invalid/isolation/reference checks. Original written exercises retained; actual learner fields blank. No real financial authority, learner/source/full AV/cross-viewer/account clearance or overall 10/10 claim.
