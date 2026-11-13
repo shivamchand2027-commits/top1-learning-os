@@ -138,3 +138,6 @@ Original synthetic cases and rubrics retained. Seven-sheet charter, eight-sheet 
 
 ### D104/D105 native staged and mixed review
 Twelve-sheet editable fictional stage/follow-on model plus separate debt maturity, terminal reinvestment and startup cases, with matching PDF. Independent arithmetic and controlled native scenario/invalid/isolation/reference checks. Original written exercises retained; actual learner fields blank. No real financial authority, learner/source/full AV/cross-viewer/account clearance or overall 10/10 claim.
+
+### D106/D107 native market and response review
+Twelve-sheet editable fictional inverse demand/supply, resource cost, ceiling allocation and recovery model, plus separate segmented midpoint elasticity and contribution cases, with matching PDF. Independent arithmetic and controlled native scenario/invalid/isolation/reference checks. Original written exercises retained; actual learner fields blank. No real financial authority, learner/source/full AV/cross-viewer/account clearance or overall 10/10 claim.
