@@ -255,3 +255,6 @@ Eleven sheets/eleven PDF pages: fictional normalized scores distinguish missingn
 
 ### D151 diligence evidence and selected-sample lab
 Eleven sheets/eleven PDF pages separate uniform MRR and independently stipulated concentration cases,plus selected-sample/nonresponse arithmetic.23 baseline formulas independently recomputed;14 changed sets/322 checks plus23 restored,eight boundaries/184,20 invalid/460 family-isolation,six broken refs. Twelve draft open questions and blank contradiction/consent records. No interviews,quotes,contact,background checks,private disclosure,account,investment or spend. Original questions/keys retained.Full source/AV/native parity/independent learner/overall10 remain open.
+
+### D152 diligence pipeline, cost and dependency lab
+Twelve sheets/twelve PDF pages;25 baseline formulas independently recomputed;16 changed sets/400 checks plus25 restored,eight boundaries/200,20 invalid/500 isolation,six broken refs. Original pipeline and monthly contribution preserved;separate stage mix and fixed cost scenarios. Three one-page commercial/technical/legal notes;actual evidence/authority/accepted-owner blank. No company verdict,code access,security test,legal cure,account,investment or spend. Original keys retained.Full source/AV/native parity/independent learner/overall10 remain open.
