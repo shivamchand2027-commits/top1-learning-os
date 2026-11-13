@@ -45,3 +45,6 @@ Proprietary. All rights reserved.
 ### D44 fund model
 
 The D44 exercise links `practice/top1-d44-fund-practice.xlsx` and an eight-sheet PDF print view. The workbook models the fictional thirty-holding exit schedule, fees, paid/unpaid carry, NAV, net LP ratios, IRR snapshots and separate charts. LibreOffice recalculation passed 231 baseline numeric checks, ten downside checks, five zero-carry checks and two reserve checks plus undefined/suppression checks. This is authored execution evidence, not learner transfer, cross-application compatibility or real fund performance.
+
+### D51 native cap-table/election lab - 13 November 2026
+Editable seven-sheet `/practice/top1-d51-cap-table-practice.xlsx` and print PDF implement the existing fictional cap-binding SAFE/pool/A/B case. All16preference/conversion profiles are enumerated, allocated by seniority, and compared against unilateral deviations. Native LibreOffice passes47share/price +339baseline-table +452changed-exit +113restoration checks against an independent rational evaluator. Saved caches and all7PDFpages inspected. Original case/quiz retained. No account state, real instrument or legal advice; authored execution is not learner transfer or Excel/Sheets parity.
