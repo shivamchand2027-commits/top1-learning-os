@@ -213,3 +213,6 @@ Ten-sheet fictional decision-boundary, adoption, service tradeoff and assumption
 
 ### D137 governance evidence lab
 Ten-sheet fictional cash, internal-receivable elimination, timeline and control-evidence lab. Eleven-page PDF. Independently recomputed formulas, changed/invalid/isolation/reference tests; original exercise retained and actual work blank. Written source coverage bounded; no current-company verdict, tax advice or actual corporate execution, new account/spend, native cross-viewer, independent learner or overall 10/10 claim.
+
+### D138 segmentation economics lab
+Ten-sheet fictional pilot economics, relative-search normalization, ADAMS and blank interview-design lab. Eleven-page PDF. Independently recomputed formulas, changed/invalid/isolation/reference tests; original exercise retained and actual work blank. Written source coverage bounded; no actual outreach, participants, quotes, commitments, dataset download or nutrition advice, new account/spend, native cross-viewer, independent learner or overall 10/10 claim.
