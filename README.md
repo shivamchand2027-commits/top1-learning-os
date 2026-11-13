@@ -246,3 +246,6 @@ Eleven sheets/twelve PDF pages compare stipulated fee-included and fee-excluded 
 
 ### D148 administrator reconciliation and notice review
 Twelve sheets/thirteen PDF pages preserve original call allocation and add independent supplemental contribution/distribution/commitment-impact classifications, snapshot/bridge NAV and net investor multiples.41 baseline formulas independently recomputed;changed/boundary/invalid/reference tests.Explicit incomplete notice placeholders,no actual bankdetails,report,transfer,account or spend.D147 extension preference typo11.8114732 corrected to11.8114632;its workbook/formulas were already right.Original questions/keys retained.Fullsource/AV/nativeparity/independentlearner/overall10remainopen.
+
+### D149 cross-border issue map and exchange arithmetic
+Ten sheets/ten PDF pages retain original uniform ordinary-share exchange and add separate existing-holder and unequal-ratio sensitivities with fractional-entitlement flags.37baseline formulas independently recomputed;changed/boundary/invalid/reference tests.Two-page route map separates flows,holder-specific branches,rights/tax gaps and source bounds.Current-law application unscored;no real formation,filing,bank contact,transfer,account,investment or spend.Original questions/keys retained.Fullsource/AV/nativeparity/independentlearner/overall10remainopen.
