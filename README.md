@@ -183,3 +183,6 @@ Twelve-sheet fresh fictional pilot tree, posterior foldback, ex-ante costs and n
 
 ### D127 native VRIO comparative evidence
 Eleven-sheet fictional routing economics, one-month NPV, replication horizon, bundle-not-interaction and evidence-status VRIO gates, with separately labelled dated company-reported ratio scope and unresolved source differences, matching PDF. Independent arithmetic and controlled native scenario/invalid/isolation/reference checks. Original written exercises retained; actual learner fields blank. No real financial authority, learner/source/full AV/cross-viewer/account clearance or overall 10/10 claim.
+
+### D128 native new-demand proposal
+Twelve-sheet fictional monthly cost bridge, own-product cannibalization, distinct fixed-count versus fixed-rate break-even, defined-category registry, strategy canvas and ERRC dependencies, matching PDF. Independently computed formulas and controlled scenario, invalid, isolation and broken-reference checks. Original exercise retained; actual observations and learner work blank. No real experiment, pricing, enrollment or spend authority; no full source/AV, independent learner, cross-viewer, account or overall 10/10 claim.
