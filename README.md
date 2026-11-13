@@ -228,3 +228,6 @@ Ten-sheet fictional pricing/package/freemium arithmetic and six-row four-thresho
 
 ### D142 channel acquisition and geo incrementality lab
 Ten-sheet fictional channel acquisition cohort and separate geo incrementality lab. Eleven-page PDF. Proportional versus additive counterfactual assumptions, contribution-adjusted iROAS, scenario sensitivity and supplied endpoints (not computed confidence intervals). Independently recomputed formulas, changed/invalid/isolation/reference tests; original exercise retained and actual work blank. Written source coverage bounded; no actual outreach, participants, quotes, commitments, actual experiment or unsupported brand claim, new account/spend, native cross-viewer, independent learner or overall 10/10 claim.
+
+### D143 growth loops and finite cohorts lab
+Eleven-sheet fictional growth loops and finite cohort lab. Twelve-page PDF. Discrete month-end contribution payback, monthly discounting, five new referral generations, distinct MRR/customer retention and activity populations. Independently recomputed formulas, changed/invalid/isolation/reference tests; original exercise retained and actual work blank. Written source coverage bounded; no actual outreach, participants, quotes, commitments, actual experiment or unsupported brand claim, new account/spend, native cross-viewer, independent learner or overall 10/10 claim.
