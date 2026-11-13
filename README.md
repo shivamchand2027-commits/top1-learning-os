@@ -99,3 +99,6 @@ New full31page Ford risk author-manuscript, NIST confidence-interval subsection 
 
 ### D72 editable cash-timing practice
 Nine-sheet authored workbook retains original undated case and rubric, adds three explicitly invented A-only weekly-end timing schedules, reconciles direct/indirect cash, tests input failures and broken references, and labels quality/real authority unknown. Same ending cash -1.3 lakh gives peak draw1.3/5.5/7.05 depending on timing. Native recalculation plus saved caches/print pixels inspected; not learner performance or spreadsheet-app parity.
+
+### D73-D74 denominator practice
+Seven-sheet authored XLSX plus eight-page PDF retains 40 synthetic accounts and 13 completion ledger rows. Named stage rates, eligibility transfer, unit economics and invalid-input tests are natively recalculated. All artifacts fictional; no market validation, learner transfer or real outreach/payment permission. Original case/rubrics unchanged.
