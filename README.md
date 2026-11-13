@@ -276,3 +276,6 @@ Eleven sheets/eleven PDF pages;181 baseline formulas independently recomputed;11
 
 ### D158 governance approvals lab
 Ten sheets/ten PDF pages;27 baseline formulas independently recomputed;19 changed sets513checks,108 board attendance-vote sets2916checks plus8 process combinations216checks,50 preferred-mode sets1350checks,18 other boundaries486checks,42 invalid1134checks,six broken references. Quorum,votes,pooled vs separate consent,operational triggers and unknown legal approval remain distinct. No real resolution,contact,calendar,account or spend. Original keys retained;fullsourceAV/nativeparity/learner/legal/overall10 remain open.
+
+### D159 term-sheet package lab
+Ten sheets/ten PDF pages;41baseline formulas independently recomputed;10changedsets410checks+41restored,14boundaries574,23invalid943,two explicit endpoints102checks,six brokenreferences. Post/pre employee allocations,issued-common payout alternatives,sequential gains and separate weighted-average/fullratchet conversion model. No actual negotiation,agreement,legal review,signature,contact,generator/account or spend. Original keys retained;fullsourceAV/nativeparity/learner/currentlaw/overall10 remain open.
