@@ -237,3 +237,6 @@ Twelve-sheet fictional fund entities, fees and terms lab. Twelve-page PDF. Separ
 
 ### D145 cash-capped preferred return and catch-up lab
 Ten-sheet fictional waterfall lab/ten-page PDF: committed/paid/invested capital, cash-capped compound preference/full100percent GP catch-up, seven cash scenarios, separate early carry/ultimate entitlement/assumed recovery.79 baseline formulas independently recomputed,changed/boundary/invalid/reference checks.Original exercise retained/actual evidence blank.No actual distributions,legal/tax opinion,clawback demand,recovery,account or spend; no native cross-viewer/independent learner/overall10 claim.
+
+### D146 manager evidence and investor reconciliation lab
+Ten sheets/ten PDF pages: complete versus selected deal population, investor fees/paid carry/accrued carry bridge, markdown sensitivity and separate EV-equity/dilution toy.31 baseline formulas independently recomputed with changed/boundary/invalid/reference tests.Original exercise and quiz retained; actual evidence/permission/accepted-owner rows blank. No actual manager verdict,reference outreach,private disclosure,investment,account or spend. Full source/AV/native parity/independent learner/overall10 remain open.
