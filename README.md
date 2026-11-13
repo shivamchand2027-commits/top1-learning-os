@@ -72,3 +72,6 @@ Complete public2012Valve handbook text read, material evaluation spreads and ima
 
 ### D249 validation-method source lab
 Adds Sackett et al.2023 research discussion, sourceTable1/Figure1 and variability/correction reading; not the Google internal study. Correlation is not hiring accuracy; mean and credibility lower value change a toy decision; synthetic criterion-reliability sensitivity checked. No candidate data or real hiring actions. Existing tenMCQs/keys/options unchanged; broader source/AV/learner/account limits remain.
+
+### D250 capability-claim source lab
+Adds official2017chapter1and author2011article: nominated leaders/retrospective perceived capability,1.97versus2.1treatment ofreportsabove100percent,companies/countriesdiscrepancy preserved. Synthetic ratio-of-means versus mean-of-ratios/top-coding/leave-one-out arithmetic. Not actualdata/causaloutputreplication,fullbookorAV. Existing tenMCQs/keys/options unchanged;learner/accountlimitsretained.
