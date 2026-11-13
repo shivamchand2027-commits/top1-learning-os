@@ -201,3 +201,6 @@ Twelve-sheet fictional acquisition, customer-weighted CAC, monthly cash, closed 
 
 ### D133 resilience stress lab
 Fourteen-sheet fictional changed-game, finite-horizon, noisy-policy and integrated-evidence review lab. Fifteen-page PDF. Independently recomputed formulas, changed/invalid/isolation/reference tests; original exercise retained and actual work blank. Written source coverage bounded; no probability calibration, business continuity certification, supplier/campaign execution, new account/spend, native cross-viewer, independent learner or overall 10/10 claim.
+
+### D134 parenting and ownership lab
+Ten-sheet fictional net-parenting, rival-owner, internal-transfer, contract and entry-price lab. Eleven-page PDF. Independently recomputed formulas, changed/invalid/isolation/reference tests; original exercise retained and actual work blank. Written source coverage bounded; no current-company verdict, tax advice or actual corporate execution, new account/spend, native cross-viewer, independent learner or overall 10/10 claim.
