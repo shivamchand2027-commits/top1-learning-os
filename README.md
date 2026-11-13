@@ -273,3 +273,6 @@ Twelve sheets/twelve PDF pages;59 baseline formulas independently recomputed;23 
 
 ### D157 joint-election exit waterfall lab
 Eleven sheets/eleven PDF pages;181 baseline formulas independently recomputed;11 changed sets/1991 checks+181 restored,18 boundaries/3258,12 invalid/2172,six explicit exit-participation cases/1110 checks,six broken refs. All eight vectors, own-switch best responses,seniority,capped participation and residual redistribution. No actual exit,legal clearance,upload,account or spend. Original keys retained;fullsourceAV/nativeparity/independentlearner/overall10 remain open.
+
+### D158 governance approvals lab
+Ten sheets/ten PDF pages;27 baseline formulas independently recomputed;19 changed sets513checks,108 board attendance-vote sets2916checks plus8 process combinations216checks,50 preferred-mode sets1350checks,18 other boundaries486checks,42 invalid1134checks,six broken references. Quorum,votes,pooled vs separate consent,operational triggers and unknown legal approval remain distinct. No real resolution,contact,calendar,account or spend. Original keys retained;fullsourceAV/nativeparity/learner/legal/overall10 remain open.
