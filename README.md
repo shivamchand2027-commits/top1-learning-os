@@ -120,3 +120,6 @@ Seven-sheet workbook and eight-slide editable packet preserve the original synth
 
 ### D84 authored mixed-transfer workbook
 Ten-sheet editable lab preserves original synthetic case/rubric. Separate operating versus cash timing, independent climate and deal ownership models, blank actual attempts and future transfer prompts.104 cached formulas, zero errors/external/macros. Authored native tests only, not learner/delayed/Excel-Sheets parity or overall10/10.
+
+### D84 authored paired-ic workbook
+Nine-sheet editable lab preserves original synthetic case/rubric. Matched invest and pass/defer arguments, common-equity dilution and deal versus fund denominators, blank actual attempts and future transfer prompts.38 cached formulas, zero errors/external/macros. Authored native tests only, not learner/delayed/Excel-Sheets parity or overall10/10.
