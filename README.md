@@ -267,3 +267,6 @@ Ten sheets/ten PDF pages;54 baseline formulas independently recomputed;20changed
 
 ### D155 forecast history and comparable scoring lab
 Ten sheets/ten PDF pages;53 baseline formulas independently recomputed;20 changed sets/1060checks+53 restored,eight boundaries/424,20invalid/1060checks,sixbrokenrefs. Paired binary Brier/skill,unresolved/void eligibility,twenty blank journal slots and four blank reference notes. No actual forecasts,monitoring,outreach,account or spending. Original keys retained;fullsourceAV/nativeparity/independentlearner/overall10 remain open.
+
+### D156 financing economics and instrument evidence lab
+Twelve sheets/twelve PDF pages;59 baseline formulas independently recomputed;23 changed sets/1357 checks+59 restored,12 boundaries/708,20 invalid/1180,six broken refs. Three-round walk, pool ordering, conditional cap-binding toy, supplied-share price alternatives and simple note conversion. No actual financing,legal clearance,outreach,account or spend. Original keys retained;fullsourceAV/nativeparity/independentlearner/overall10 remain open.
