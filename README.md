@@ -225,3 +225,6 @@ Ten-sheet fictional integrated acquisition review, terminal timing, enterprise-e
 
 ### D141 pricing, packages and perceptions lab
 Ten-sheet fictional pricing/package/freemium arithmetic and six-row four-threshold perception counts with explicit boundary and invalid-row policies. Ten-page PDF. No demand curve or price optimum inferred. Independently recomputed formulas, changed/invalid/isolation/reference tests; original exercise retained and actual work blank. Written source coverage bounded; no actual outreach, participants, quotes, commitments, actual experiment or unsupported brand claim, new account/spend, native cross-viewer, independent learner or overall 10/10 claim.
+
+### D142 channel acquisition and geo incrementality lab
+Ten-sheet fictional channel acquisition cohort and separate geo incrementality lab. Eleven-page PDF. Proportional versus additive counterfactual assumptions, contribution-adjusted iROAS, scenario sensitivity and supplied endpoints (not computed confidence intervals). Independently recomputed formulas, changed/invalid/isolation/reference tests; original exercise retained and actual work blank. Written source coverage bounded; no actual outreach, participants, quotes, commitments, actual experiment or unsupported brand claim, new account/spend, native cross-viewer, independent learner or overall 10/10 claim.
