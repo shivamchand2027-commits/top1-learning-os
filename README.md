@@ -288,3 +288,6 @@ Twelve-sheet/PDF fictional joint-election calculator. 181 baseline formulas inde
 
 ### D163 follow-on, reserves and board evidence
 Twelve-sheet/PDF conditional same-price follow-on lab. 65 baseline formulas independently recomputed; changed, boundary, invalid and 81 price/ownership/take-up scenarios. Full6 preserves12%, partial3 gives11%, none10%; budget fit is not investment merit. Company cash differs from fund reserves. Six bounded written sources including selected IPEV2025 pages. No actual investment, valuation, board consent, account or spend. Native parity, learner/full source AV and overall 10 remain open.
+
+### D164 co-invest funding basis, fees and carry
+Eleven-sheet/PDF fictional fee lab:65 baseline formulas independently recomputed; changed, boundary, invalid and81fee/exit/carry/split scenarios.400total raised differs from400invested;fixed412raise differs frompercentage412.244898. Shared20%carry differs fromsequential36%. Nine bounded sourceURLs, sevenpublishers; currentSEBImasterChapter6read,not fullcase/legal clearance. No entity, solicitation, investment, account or spend. Native parity, learner/full source AV and overall10remainopen.
