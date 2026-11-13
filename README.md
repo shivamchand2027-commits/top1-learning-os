@@ -1,70 +1,38 @@
-# The Top 1% Learning OS
+# Top 1% Learning OS
 
-A self-serve learning platform for consulting, strategy, venture capital, AI and case competitions, built for ambitious learners in India. One link, instant Google sign-in, and a complete practice stack: curated tracks, drills against the clock, a decision journal, streaks and ranks, and distilled operator reading.
+A self-serve learning platform for consulting, strategy, finance, venture capital, AI, organizational work and case competitions.
 
-**Live:** https://tinyurl.com/2cnp2yjp
+**Website:** https://top1os.dev/
 
-## What is inside
+## Current curriculum
 
-### Learn
-- **219 quiz-gated modules** across Foundations, Corporate Finance (Damodaran NYU Stern spine), Consulting, Strategy, Marketing and Growth, Venture Capital, Sector Specialization, Capstone and Defence, AI, Thinking Patterns and Executive Communication.
-- 90%-watch video gate before quizzes unlock; track completion certificates with verification IDs and LinkedIn share.
+The prepared 13 November 2026 release covers 263 module IDs: 195 static kits and 68 modules in the AI, Thinking Patterns, Executive Communication, Investment Banking, Founder's Office, Organizational Strategy and Supply Chain arrays. It contains 2,590 MCQ items and 25 intentional self-check rubrics. A content count is not evidence of learner mastery.
 
-### Library
-- 265 hand-picked papers, essays and videos, including a deduped AI shelf of 47 Ivy-taught courses and industry-standard resources.
+The release adds exact-question-bound explanations and four option rationales for every MCQ. It retains all existing question stems and correct-key positions, repairs selected numerical distractors and overbroad objectives, improves selected distractors, and fixes 34 malformed video assignments after title/channel identity checks. D103 adds finite APV/LBO written practice; D117 adds fitted linear-regression and future-batch practice. New worked exercises are self-assessed, not extra automatic quiz certifications.
 
-### Case Comp
-- Frameworks, calculators and deck layouts for case competitions.
+## Application structure
 
-### Practice stack
-- **Timed drills** - 8 guesstimates and 6 case drills against a countdown timer, with model answers and honest self-ratings.
-- **Decision journal** - log a decision with your reasoning and confidence (50-100%), then review the outcome on the due date. A calibration chart shows predicted vs actual accuracy by confidence bucket, with a plain-English verdict on over/underconfidence.
-- **Streaks and ranks** - XP for every rep (drill 10, journal entry 10, review 15, active-day bonus 5), current and longest streaks, a 15-week activity grid, and a consulting-style rank ladder from Analyst (0 XP) to Top 1% (4000 XP).
-- **Book distillations** - ten essential operator books (Pyramid Principle, Good Strategy Bad Strategy, The McKinsey Way, Zero to One, Thinking Fast and Slow, Principles, Deep Work, The Lean Startup, The Goal, So Good They Can't Ignore You), each with why-to-read, 8 ideas that matter, 3 actions for the week and an anchor quote.
+- `index.html`: entry page, shared styling and script references.
+- `app.js`: routing, login integration, progress behavior, lesson/quiz presentation and embedded AI lessons.
+- `data/kits.js`: static module kits, loaded when needed.
+- `data/modules.js`: additional curriculum arrays.
+- Other `data/` and `img/` assets: library, books, case resources and visuals.
+- `CNAME` on the release branch: `top1os.dev`.
+- `Code.gs` and `appsscript.json` on main: legacy Apps Script material, not the current GitHub Pages deployment mechanism.
 
-### AI Credits
-- A curated directory of free AI credits, grants and programmes students can claim.
+Authentication and progress use the existing Supabase integration. This release does not change those flows, database policies or saved learner state. Do not interpret this README as fresh verification of account isolation, synchronization or backend authorization.
 
-### Platform
-- Google sign-in with manual learner approval (admin-gated).
-- Progress, drills and journal sync to a Supabase backend (publishable anon key only; row-level security enforced, no cross-user reads).
-- Daily digest: a sheet-fed curated read on the home page.
-- Light theme only, static UI, fast first paint (~2s HTML delivery), mobile-first responsive.
+## Deployment
 
-## Architecture
+GitHub Pages serves `/` from `top1-seo-listings-release`, not `main`. Preserve its `.nojekyll`, `CNAME`, supporting assets and domain settings. Keep the intended product files and release documentation mirrored on `main`, while preserving branch-specific legacy files.
 
-The whole client application lives in a single `index.html` (markup, styles and JavaScript inlined, no build step, no external JS dependencies beyond the Supabase client CDN). `Code.gs` is a 6-line `doGet` that serves it. State persists to `localStorage` and queues to Supabase.
+Use an up-to-date normal Git checkout. Inspect changes, run syntax/data checks, commit and push without force. Verify the Pages build and the actual files delivered from https://top1os.dev/ before saying a release is live. A successful push alone does not establish deployment. A rollback should be an ordinary reviewed revert commit, not a forced branch reset.
 
-```
-.
-├── appsscript.json   # Apps Script manifest (V8, Asia/Kolkata, web app config)
-├── Code.gs           # doGet entrypoint - serves index.html
-├── index.html        # the entire client application
-└── README.md
-```
+## Verification and limits
 
-## Setup
+The 13 November candidate passed isolated data/explanation checks for 2,590 positive renders, 2,590 changed-stem negatives, 2,590 changed-key negatives and 10,360 changed-option negatives. All 263 lesson objects match the prepared baseline plus recorded changes. Changed content was inspected with the existing visual styling at mobile and desktop widths. Additional APV/LBO/regression calculations were independently recomputed.
 
-1. Create a new project at https://script.google.com.
-2. Add two files: `Code.gs` and `index.html` from this repo (keep the names exact).
-3. Set the project manifest (`appsscript.json`) to match this repo, or enable "Show appsscript.json" in Project Settings and paste it.
-4. For sync, create a Supabase project with a `progress` table (RLS on, per-email policies) and set `SUPABASE_URL` and `SUPABASE_ANON_KEY` constants in `index.html`. The approval mirror sheet and digest sheet are optional; the app runs read-only without them.
-
-## Deploy
-
-1. In the Apps Script editor: **Deploy > New deployment > Web app**.
-2. Execute as: **Me**. Who has access: **Anyone**.
-3. Every change ships as a new version under **Manage deployments**; the `/exec` URL never changes.
-4. Verify a deploy by fetching the `/exec` URL and grepping for a unique string from the new code (deployment dialogs can report success on stale snapshots - always confirm on the served bytes).
-
-### Deploy hygiene learned the hard way
-- Always open `index.html` in the editor before saving; saves can silently no-op otherwise.
-- Wait 60+ seconds after saving before creating a version, or the version can snapshot pre-save content.
-- The serving layer caches aggressively; re-check with a fresh query param before concluding content is missing.
-
-## Admin
-
-- Admin console and learner approval: `shivamchand56@gmail.com` only.
+These are not account/learner-flow tests, complete audiovisual reviews, native-workbook execution or proof of learning transfer. Video metadata confirms identity only. Remaining quality and validation work is still open; this release is not a claim of 10/10 on every metric. Inline feedback increases the application payload; actual device and delivery performance need ongoing review.
 
 ## Licence
 
