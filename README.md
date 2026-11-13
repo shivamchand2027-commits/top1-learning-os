@@ -240,3 +240,6 @@ Ten-sheet fictional waterfall lab/ten-page PDF: committed/paid/invested capital,
 
 ### D146 manager evidence and investor reconciliation lab
 Ten sheets/ten PDF pages: complete versus selected deal population, investor fees/paid carry/accrued carry bridge, markdown sensitivity and separate EV-equity/dilution toy.31 baseline formulas independently recomputed with changed/boundary/invalid/reference tests.Original exercise and quiz retained; actual evidence/permission/accepted-owner rows blank. No actual manager verdict,reference outreach,private disclosure,investment,account or spend. Full source/AV/native parity/independent learner/overall10 remain open.
+
+### D147 contract bases and investor reconciliation lab
+Eleven sheets/twelve PDF pages compare stipulated fee-included and fee-excluded waterfall bases with unchanged actual investor contributions, cash-capped catch-up, simplified net NAV roll and separate contribution-after-spend review.99 baseline formulas independently recomputed with changed/boundary/invalid/reference tests.Original questions/keys retained,actual evidence/permission/accepted-owner plan blank.No actual payout,contract opinion,investment,outreach,account or spend.Fullsource/AV/native parity/independent learner/overall10 remain open.
