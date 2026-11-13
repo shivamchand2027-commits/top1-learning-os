@@ -81,3 +81,6 @@ Adds selected 2019 published-paper methods, Tables I-III, selection assumptions 
 
 ### D252 operations strategy fit and capacity uncertainty
 Added complete-text readings of MIT 2010 lectures 2 (26 PDF pages) and 10 (12), with selected material diagrams/tables inspected. Cross-functional fit and decision categories support the fictional delivery promise. A separate nonmedical one-period capacity-loss exercise tests reversed underage/overage costs and same-mean demand uncertainty. This is not a current Genentech forecast, a purchase, a full-course/recording review or observed learner transfer. Existing ten MCQs, keys and options unchanged.
+
+### D253-D254 queue variability and multi-resource allocation
+D253 adds complete-text MIT 2002 lecture 8 and Modiano M/G/1 deck coverage, with core formula/diagram pixels checked. Distinguishes queue/system boundaries and tests identical means with different second moments, utilization and waits. D254 adds full-text Hajek 2014 conceptual review coverage and an authored two-resource counterexample with exhaustive integer checks, a separate dual bound, changed capacity and relevant-cost sensitivity. These are bounded self-checks, not operational commitments, empirical replication, recording review or observed learner transfer. Existing MCQs, keys and options unchanged.
