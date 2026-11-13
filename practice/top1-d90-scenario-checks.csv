@@ -1,0 +1,5 @@
+name,revenue,variable,fixed,collections,capex,rework,operating,net_income,AR,CFO,CFI,movement,cash,PPE,assets,equity,incremental_operating,incremental_cash,floor_gap
+No bet,30,18,8,27,0,0,4,2,3,1,0,1,11,18,32,32,0,0,0
+Original growth,36,108/5,10,126/5,5/2,0,22/5,12/5,54/5,-32/5,-5/2,-89/10,11/10,41/2,162/5,162/5,2/5,-99/10,9/10
+Delayed 4,36,108/5,10,106/5,5/2,0,22/5,12/5,74/5,-52/5,-5/2,-129/10,-29/10,41/2,162/5,162/5,2/5,-139/10,49/10
+Delay + rework,36,108/5,10,106/5,5/2,6/5,16/5,6/5,74/5,-58/5,-5/2,-141/10,-41/10,41/2,156/5,156/5,-4/5,-151/10,61/10
