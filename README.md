@@ -282,3 +282,6 @@ Ten sheets/ten PDF pages;41baseline formulas independently recomputed;10changeds
 
 ### D160 ESOP cash, vesting and secondary lab
 Twelve sheets/PDF pages; 24 baseline formulas independently recomputed, 12 changed sets 288 checks plus 24 restored, 21 boundaries 504, 38 invalid 912 and six broken references. Stipulated 30% collection is not an actual tax rate; losses retained without automatic salary-tax refund. Existing-share secondary leaves issued count unchanged and company primary cash zero. Selected current Indian tax/RBI text qualified, not employee case clearance. No actual exercise, transfer, buyback, loan, notice, filing, advice, account or spend. Original keys retained; full source/AV, native parity, learner and overall 10 remain open.
+
+### D161 downside recap and negotiated alternatives
+Twelve-sheet/PDF fictional joint-election calculator. 181 baseline formulas independently recomputed; changed, boundary, invalid, rights-exit and separate/combined counterfactual tests. Forced B is a negotiated feasible-choice assumption, not voluntary acceptance. Common gains must be re-solved, not added. No actual employee entitlement, vote, legal clearance, transaction, account or spend. Native parity, learner/full source AV and overall 10 remain open.
