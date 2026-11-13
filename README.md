@@ -123,3 +123,6 @@ Ten-sheet editable lab preserves original synthetic case/rubric. Separate operat
 
 ### D84 authored paired-ic workbook
 Nine-sheet editable lab preserves original synthetic case/rubric. Matched invest and pass/defer arguments, common-equity dilution and deal versus fund denominators, blank actual attempts and future transfer prompts.38 cached formulas, zero errors/external/macros. Authored native tests only, not learner/delayed/Excel-Sheets parity or overall10/10.
+
+### D85/D86 authored board-practice artifacts
+Original synthetic exercises/rubrics preserved. D85 has 15 editable slides, two native charts and claim/input/status notes. D86 has a 10-page editable answer-first memo, source register and eight-row decision/change log. Both retain conditional defer/redesign, matched alternatives, fictional review gates and UNKNOWN quality/dated peak funding/authority. Separate exact-rational arithmetic plus saved chart/native/PDF readback passed 83 checks; all 15 slides and 10 memo pages visually inspected. These are authored examples, not actual board distribution, learner completion, independent human signoff, full source/AV validation, cross-viewer parity or overall 10/10.
