@@ -180,3 +180,6 @@ Ten-sheet fictional market growth and relative share, included-subsidiary overla
 
 ### D126 native cumulative pilot and targeted review
 Twelve-sheet fresh fictional pilot tree, posterior foldback, ex-ante costs and negative-node sunk cost, signal-quality sensitivity and response-based cumulative review, with separate actual-error and delayed-transfer record, with matching PDF. Independent arithmetic and controlled native scenario/invalid/isolation/reference checks. Original written exercises retained; actual learner fields blank. No real financial authority, learner/source/full AV/cross-viewer/account clearance or overall 10/10 claim.
+
+### D127 native VRIO comparative evidence
+Eleven-sheet fictional routing economics, one-month NPV, replication horizon, bundle-not-interaction and evidence-status VRIO gates, with separately labelled dated company-reported ratio scope and unresolved source differences, matching PDF. Independent arithmetic and controlled native scenario/invalid/isolation/reference checks. Original written exercises retained; actual learner fields blank. No real financial authority, learner/source/full AV/cross-viewer/account clearance or overall 10/10 claim.
