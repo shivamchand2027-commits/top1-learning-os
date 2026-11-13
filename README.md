@@ -60,3 +60,6 @@ Ten-slide PPTX, PDF and four-case CSV retain the synthetic D85/86/D88 case and D
 
 ### D162 runnable synthetic portfolio lab - 13 November 2026
 Prior authored model core packaged as standard-library Python,6-scenario paths/statistics,baseline bins/SVG and4-page PDF. Independent integer-sixths/rational-waterfall evaluator matched24,000path values,48strict threshold checks,36prior bins,12baseline references and budget/tie/constant/edge controls. Extracted ZIP regenerated all5outputs byte for byte. FourPDFpages and SVG inspected. Seed/draworder/follow-on pricing retained; original exercise and quiz preserved. No empirical forecast, real fund policy, independent learner transfer, fullAV or overall10/10 clearance.
+
+### D162 source-reading calculation
+Freshly read two assigned Kauffman articles and inspected29staticimages. Add mean-of-case-MOIC versus expected-cash/expected-capital checks from rounded source table:3.984 versus4.372222x and1.654 versus1.945x. Distinguish37.780043M chart threshold/43.5%exceedance from29.750M displayed allocation. Not a reproduced vendor engine or corrected unrounded output; original case/quiz and source/AV/learner limits retained.
