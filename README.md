@@ -144,3 +144,6 @@ Twelve-sheet editable fictional inverse demand/supply, resource cost, ceiling al
 
 ### D108/D109 native capacity and winner-selection review
 Twelve-sheet editable fictional annual plant capacity, same-output costs and feasible thresholds, plus separate joint-state auction selection, conditional value, candidate downside and interval bounds, with matching PDF. Independent arithmetic and controlled native scenario/invalid/isolation/reference checks. Original written exercises retained; actual learner fields blank. No real financial authority, learner/source/full AV/cross-viewer/account clearance or overall 10/10 claim.
+
+### D110/D111 native exact-growth and repricing review
+Twelve-sheet editable fictional matched GDP/deflator/population ratios, separate retail contribution/thresholds and lender time-weighted repricing/NII/NIM/credit expense cases, with matching PDF. Independent arithmetic and controlled native scenario/invalid/isolation/reference checks. Original written exercises retained; actual learner fields blank. No real financial authority, learner/source/full AV/cross-viewer/account clearance or overall 10/10 claim.
