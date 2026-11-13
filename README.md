@@ -54,3 +54,6 @@ Editable nine-sheet `/practice/top1-d88-statements-practice.xlsx` and print PDF 
 
 ### D52 native valuation indications - 13 November 2026
 Seven-sheet `/practice/top1-d52-valuation-practice.xlsx` and PDF preserve the fictional conditional VC ceiling, current invented EV/ARR comps and separate operating DCF. Native LibreOffice passed 64 baseline, 25 controlled-change, 64 inserted-row and 64 restored checks against an independent rational evaluator, plus ten invalid-input cases and infeasible/zero-retention/negative-equity/reference edges. All print sheets inspected. No averaging of unlike methods; no real market claims, investment approval, learner-transfer or Excel/Sheets parity.
+
+### D90 editable decision practice - 13 November 2026
+Ten-slide PPTX, PDF and four-case CSV retain the synthetic D85/86/D88 case and D90 rubric. Delay of collections by 4 leaves revenue unchanged, takes cash 1.1 to -2.9, and separate rework 1.2 takes cash to -4.1. Forty-three rational-value/identity/scenario checks passed. Native tables/chart/notes retained; all ten rendered slides inspected. Day0/30/60/90 are fictional checkpoints, not real assignments. Endpoint gaps are not dated peak funding. No timed/spoken learner defence, recording review, real approval, PowerPoint/Slides parity or overall10/10 is claimed.
