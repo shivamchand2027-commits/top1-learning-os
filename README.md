@@ -279,3 +279,6 @@ Ten sheets/ten PDF pages;27 baseline formulas independently recomputed;19 change
 
 ### D159 term-sheet package lab
 Ten sheets/ten PDF pages;41baseline formulas independently recomputed;10changedsets410checks+41restored,14boundaries574,23invalid943,two explicit endpoints102checks,six brokenreferences. Post/pre employee allocations,issued-common payout alternatives,sequential gains and separate weighted-average/fullratchet conversion model. No actual negotiation,agreement,legal review,signature,contact,generator/account or spend. Original keys retained;fullsourceAV/nativeparity/learner/currentlaw/overall10 remain open.
+
+### D160 ESOP cash, vesting and secondary lab
+Twelve sheets/PDF pages; 24 baseline formulas independently recomputed, 12 changed sets 288 checks plus 24 restored, 21 boundaries 504, 38 invalid 912 and six broken references. Stipulated 30% collection is not an actual tax rate; losses retained without automatic salary-tax refund. Existing-share secondary leaves issued count unchanged and company primary cash zero. Selected current Indian tax/RBI text qualified, not employee case clearance. No actual exercise, transfer, buyback, loan, notice, filing, advice, account or spend. Original keys retained; full source/AV, native parity, learner and overall 10 remain open.
