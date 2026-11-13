@@ -96,3 +96,6 @@ New full Management Science 1997 LPW mathematical paper and 37-page MIT Caplice 
 
 ### D261-D263 risk allocation, measurement uncertainty and SLO alerting
 New full31page Ford risk author-manuscript, NIST confidence-interval subsection and official SRE workbook Alerting on SLOs chapter support exact fictional allocation, binomial-tail and minute-window labs. D261 distinguishes joint survival, weighted objectives and scenario-set normalization; D262 distinguishes one/two-sided zero-failure bounds without claiming a dabbawala audit; D263 checks burn rates, AND/OR reset and low-traffic source arithmetic. Prior completed source work reused, not recounted. Existing MCQs, keys and options unchanged; no real inventory, sourcing, learner/account or spending action.
+
+### D72 editable cash-timing practice
+Nine-sheet authored workbook retains original undated case and rubric, adds three explicitly invented A-only weekly-end timing schedules, reconciles direct/indirect cash, tests input failures and broken references, and labels quality/real authority unknown. Same ending cash -1.3 lakh gives peak draw1.3/5.5/7.05 depending on timing. Native recalculation plus saved caches/print pixels inspected; not learner performance or spreadsheet-app parity.
